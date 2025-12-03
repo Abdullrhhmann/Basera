@@ -1,0 +1,366 @@
+/* KineticSection.css */
+
+/* NOTE: You must ensure these fonts are available, e.g., in your public/index.html */
+@import url("https://fonts.cdnfonts.com/css/longsile");
+@import url("https://fonts.cdnfonts.com/css/thegoodmonolith");
+@import url("https://fonts.cdnfonts.com/css/pp-neue-montreal");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #ffcc00;
+  --bg: #131c2b;
+  --highlight-bg: #ffcc00;
+  --type-line-opacity: 0.05;
+}
+
+.kinetic-section-container {
+  background-color: var(--bg);
+  height: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  font-family: "Longsile", sans-serif;
+  position: relative;
+  width: 100%;
+  isolation: isolate;
+  padding: 100px 0 60px;
+}
+
+.background-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://assets.codepen.io/7558/web03.webp");
+  background-color: #131c2b;
+  background-size: 100% 100%;
+  background-position: center;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.bottom-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(
+    to top,
+    rgba(19, 28, 43, 1) 0%,
+    rgba(19, 28, 43, 0) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  z-index: 1;
+  mix-blend-mode: multiply;
+  transition: none; /* Let GSAP manage transition */
+  overflow: hidden;
+}
+
+.background-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(19, 28, 43, 0.6);
+  pointer-events: none;
+}
+
+.background-image.default {
+  background-image: url("https://assets.codepen.io/7558/wave-bg-001.webp");
+  opacity: 1;
+}
+
+.background-image.focus {
+  background-image: url("https://assets.codepen.io/7558/wave-bg-002.webp");
+}
+
+.background-image.presence {
+  background-image: url("https://assets.codepen.io/7558/wave-bg-003.webp");
+}
+
+.background-image.feel {
+  background-image: url("https://assets.codepen.io/7558/wave-bg-004.webp");
+}
+
+/* Background Text Styles */
+.text-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.text-item {
+  position: absolute;
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: "TheGoodMonolith", sans-serif;
+  mix-blend-mode: hard-light;
+  opacity: 0.22;
+  filter: blur(0px);
+  transition: none;
+}
+
+.text-item.highlight {
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  color: var(--bg) !important;
+  background-color: var(--highlight-bg) !important;
+}
+
+.text-item.highlight-reverse {
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  color: var(--text) !important;
+  background-color: transparent !important;
+}
+
+/* Main Content Styles */
+.main-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  pointer-events: none;
+  min-height: 100vh;
+}
+
+.sliced-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  pointer-events: auto;
+}
+
+.text-row {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  padding: 60px 0;
+  user-select: none;
+  pointer-events: auto;
+  overflow: visible;
+}
+
+.text-content {
+  font-family: "Longsile", sans-serif;
+  font-size: clamp(72px, 18vw, 120px);
+  line-height: 1.0;
+  color: var(--text);
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  letter-spacing: 0em;
+  pointer-events: none;
+  visibility: visible;
+}
+
+.text-content .char {
+  display: inline-flex;
+  overflow: visible;
+  align-items: center;
+  justify-content: center;
+  transition: none; /* GSAP handles this */
+  margin-right: 0.05em;
+  white-space: pre;
+}
+
+.text-content .char-inner {
+  display: inline-block;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  transition: none; /* GSAP handles this */
+}
+
+.interactive-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Kinetic Type Styles */
+.type {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(12, min-content);
+  gap: -100px;
+  place-items: center;
+  z-index: 200;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: none;
+}
+
+.type-line {
+  white-space: nowrap;
+  font-size: clamp(7rem, 18.75vh, 15rem);
+  line-height: 0.75;
+  font-weight: bold;
+  font-family: "PP Neue Montreal", sans-serif;
+  color: #ffffff;
+  opacity: var(--type-line-opacity);
+  user-select: none;
+  will-change: transform, opacity;
+  position: relative;
+}
+
+.type-line.odd {
+  text-align: right;
+  padding-right: 2vw;
+  transform: translateX(0%);
+}
+
+.type-line.even {
+  text-align: left;
+  padding-left: 2vw;
+  transform: translateX(0%);
+}
+
+.simplicity-char {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .kinetic-section-container {
+    padding: 60px 20px 40px;
+  }
+  
+  .text-content {
+    font-size: clamp(50px, 12vw, 90px);
+    line-height: 1.1;
+  }
+  
+  .type-line {
+    font-size: clamp(4rem, 12vh, 8rem);
+  }
+  
+  .text-row {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .kinetic-section-container {
+    padding: 40px 15px 30px;
+  }
+  
+  .text-content {
+    font-size: clamp(40px, 10vw, 70px);
+    line-height: 1.2;
+  }
+  
+  .type-line {
+    font-size: clamp(3rem, 10vh, 6rem);
+  }
+  
+  .text-item {
+    font-size: 12px;
+  }
+  
+  .text-row {
+    padding: 30px 0;
+  }
+  
+  .main-content {
+    min-height: auto;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .kinetic-section-container {
+    padding: 30px 10px 20px;
+  }
+  
+  .text-content {
+    font-size: clamp(32px, 8vw, 55px);
+    line-height: 1.3;
+  }
+  
+  .type-line {
+    font-size: clamp(2.5rem, 8vh, 5rem);
+    line-height: 0.8;
+  }
+  
+  .text-item {
+    font-size: 10px;
+  }
+  
+  .text-row {
+    padding: 20px 0;
+  }
+  
+  .sliced-container {
+    width: 95%;
+    padding: 0 10px;
+  }
+  
+  .type-line.odd {
+    padding-right: 1vw;
+  }
+  
+  .type-line.even {
+    padding-left: 1vw;
+  }
+}
+
+@media (max-width: 360px) {
+  .text-content {
+    font-size: clamp(28px, 7vw, 45px);
+  }
+  
+  .type-line {
+    font-size: clamp(2rem, 7vh, 4rem);
+  }
+  
+  .text-item {
+    font-size: 8px;
+  }
+  
+  .text-row {
+    padding: 15px 0;
+  }
+}
+

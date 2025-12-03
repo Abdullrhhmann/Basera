@@ -1,0 +1,1851 @@
+{
+  "language": {
+    "english": "الإنجليزية",
+    "arabic": "العربية",
+    "switchToEnglish": "التبديل إلى الإنجليزية",
+    "switchToArabic": "التبديل إلى العربية"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما",
+    "all": "الكل",
+    "actions": {
+      "confirm": "تأكيد",
+      "cancel": "إلغاء",
+      "goBack": "رجوع",
+      "goHome": "الصفحة الرئيسية"
+    },
+    "confirmation": {
+      "title": "تأكيد الإجراء",
+      "message": "هل ترغب في المتابعة؟"
+    }
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "properties": "العقارات",
+    "developers": "المطورون",
+    "compounds": "الكمبوندات",
+    "careers": "الوظائف",
+    "ourDevelopments": "مشروعاتنا",
+    "launches": "الطروحات",
+    "blog": "المدونة",
+    "contact": "تواصل معنا",
+    "leadForm": "نموذج العملاء",
+    "submitProperty": "أضف عقارك",
+    "dashboard": "لوحة التحكم",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "loading": "جارٍ تحميل الصفحة...",
+    "roiCalculator": "حاسبة العائد",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة"
+  },
+  "footer": {
+    "stayUpdated": "ابقَ على اطلاع",
+    "newsletterCta": "اشترك في نشرتنا للحصول على أحدث العقارات و تحليلات السوق والعروض الحصرية.",
+    "subscribe": "اشترك الآن",
+    "subscribing": "جاري الاشتراك...",
+    "newsletter": {
+      "success": "تم الاشتراك في النشرة الإخبارية بنجاح!",
+      "errors": {
+        "emailRequired": "يرجى إدخال عنوان بريدك الإلكتروني",
+        "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+        "subscriptionFailed": "فشل الاشتراك. يرجى المحاولة مرة أخرى."
+      }
+    },
+    "rights": "جميع الحقوق محفوظة.",
+    "company": "الشركة",
+    "services": "الخدمات",
+    "resources": "المصادر",
+    "legal": "قانوني",
+    "admin": "لوحة التحكم",
+    "location": "القاهرة، مصر",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "links": {
+      "ourTeam": "فريق العمل",
+      "careers": "الوظائف",
+      "contact": "تواصل معنا",
+      "buyProperty": "شراء عقار",
+      "sellProperty": "بيع عقار",
+      "rentProperty": "استئجار عقار",
+      "propertyManagement": "إدارة العقارات",
+      "propertyGuide": "دليل العقارات",
+      "investmentCalculator": "حاسبة الاستثمار",
+      "marketReports": "تقارير السوق",
+      "privacyPolicy": "سياسة الخصوصية",
+      "terms": "الشروط والأحكام",
+      "cookies": "سياسة ملفات تعريف الارتباط",
+      "disclaimer": "إخلاء المسؤولية"
+    },
+    "copyright": "© {{year}} بصيرة للتطوير العقاري. جميع الحقوق محفوظة."
+  },
+  "map": {
+    "loading": "جارٍ تحميل الخريطة...",
+    "errors": {
+      "unavailable": "الخريطة غير متاحة",
+      "unavailableDescription": "تعذّر تحميل الخريطة. يرجى التحقق من اتصال الإنترنت.",
+      "noCoordinates": {
+        "title": "الموقع غير متوفر",
+        "description": "إحداثيات الخريطة غير متاحة لهذا العقار."
+      },
+      "geolocationUnsupported": "المتصفح لا يدعم ميزة تحديد الموقع.",
+      "geolocationFailed": "تعذّر تحديد موقعك الحالي."
+    },
+    "actions": {
+      "retry": "أعد المحاولة",
+      "directions": "الاتجاهات",
+      "useCurrentLocation": "استخدم موقعي الحالي",
+      "myLocation": "موقعي",
+      "gettingLocation": "جاري التحديد..."
+    },
+    "header": {
+      "title": "موقع العقار",
+      "subtitle": "عرض خريطة تفاعلي"
+    },
+    "tooltips": {
+      "directions": "الحصول على الاتجاهات",
+      "openInGoogle": "فتح في خرائط جوجل",
+      "openInOSM": "فتح في أوبن ستريت ماب",
+      "useCurrentLocation": "استخدام موقعي الحالي"
+    },
+    "footer": {
+      "poweredGoogle": "مدعوم من خرائط جوجل",
+      "poweredOSM": "مدعوم من أوبن ستريت ماب"
+    }
+  },
+  "protected": {
+    "loading": "جاري التحقق من الصلاحيات...",
+    "accessDenied": {
+      "title": "تم رفض الوصول",
+      "message": "ليس لديك صلاحية للوصول إلى هذه الصفحة. هذه المنطقة مخصصة للأدوار المصرح لها فقط."
+    }
+  },
+  "cta": {
+    "inquireNow": "اطلب استشارة",
+    "exploreAllProperties": "استكشف جميع العقارات"
+  },
+  "home": {
+    "metaTitle": "بصيرة العقارية - اعثر على منزلك المثالي",
+    "metaDescription": "اكتشف أحدث العقارات الفاخرة مع بصيرة - شريكك الموثوق للعثور على المنزل والاستثمار المناسب.",
+    "hero": {
+      "title": "ابحث عن عقارك المثالي في مصر",
+      "cta": "عرض العقارات"
+    },
+    "social": {
+      "instagram": "إنستغرام",
+      "facebook": "فيسبوك",
+      "whatsapp": "واتساب",
+      "whatsappDefaultMessage": "مرحبًا! أرغب في معرفة المزيد عن عقاراتكم."
+    },
+    "kinetic": {
+      "rows": {
+        "focus": "البصيرة",
+        "presence": "التفاصيل",
+        "feel": "الثقة"
+      },
+      "typeLines": [
+        "البصيرة البصيرة البصيرة",
+        "التفاصيل التفاصيل التفاصيل",
+        "الثقة الثقة الثقة",
+        "البصيرة البصيرة البصيرة",
+        "التفاصيل التفاصيل التفاصيل",
+        "البصيرة البصيرة البصيرة",
+        "البصيرة البصيرة البصيرة",
+        "التفاصيل التفاصيل التفاصيل",
+        "الثقة الثقة الثقة",
+        "البصيرة البصيرة البصيرة",
+        "التفاصيل التفاصيل التفاصيل",
+        "البصيرة البصيرة البصيرة"
+      ],
+      "background": {
+        "be": "بصيرة",
+        "present": "في",
+        "listen": "كل",
+        "deeply": "تفصيلة",
+        "observe": "السوق",
+        "ampersand": "•",
+        "feel": "ثقة",
+        "make": "بيانات",
+        "better": "موجهة",
+        "decisions": "قرارات",
+        "the": "خبراء",
+        "creative": "الإرشاد",
+        "process": "الإستراتيجية",
+        "is": "مع",
+        "mysterious": "بصيرة",
+        "simplicity_s": "بصيرة",
+        "simplicity_i1": "في",
+        "simplicity_m": "كل",
+        "simplicity_p": "تفصيلة",
+        "simplicity_l": "رؤية",
+        "simplicity_i2": "واضحة",
+        "simplicity_c": "إدارة",
+        "simplicity_i3": "استثمار",
+        "simplicity_t": "ثقة",
+        "simplicity_y": "دائمة",
+        "isTheKey": "بصيرة في كل تفصيلة",
+        "findYourVoice": "رؤى مصممة",
+        "trustIntuition": "ثق بالخبراء",
+        "embraceSilence": "توجيه واضح",
+        "questionEverything": "اسأل بثقة",
+        "truth": "شفافية",
+        "wisdom": "إستراتيجية",
+        "focus": "تركيز",
+        "attention": "دقة",
+        "awareness": "تحليل",
+        "presence": "مرافقة",
+        "simplify": "بسّط",
+        "refine": "طوّر"
+      },
+      "alternatives": {
+        "focus": {
+          "be": "بصيرة أعمق",
+          "present": "تكشف",
+          "listen": "كل",
+          "deeply": "أنماط",
+          "observe": "السوق",
+          "ampersand": "×",
+          "feel": "ثقة",
+          "make": "بيانات",
+          "better": "موجّهة",
+          "decisions": "اختيارات",
+          "the": "ذكية",
+          "creative": "استثمار",
+          "process": "استراتيجية",
+          "is": "مع",
+          "mysterious": "بصيرة",
+          "simplicity_s": "بصيرة",
+          "simplicity_i1": "في",
+          "simplicity_m": "كل",
+          "simplicity_p": "تفصيلة",
+          "simplicity_l": "رؤية",
+          "simplicity_i2": "أوضح",
+          "simplicity_c": "إدارة",
+          "simplicity_i3": "استثمار",
+          "simplicity_t": "ثقة",
+          "simplicity_y": "دائمة",
+          "isTheKey": "تكشف الوضوح",
+          "findYourVoice": "حدّد رؤيتك",
+          "trustIntuition": "ثق بالأرقام",
+          "embraceSilence": "ارصد الإشارة",
+          "questionEverything": "استكشف الإجابة",
+          "truth": "بصيرة",
+          "wisdom": "توجيه",
+          "focus": "تركيز",
+          "attention": "دقة",
+          "awareness": "فهم",
+          "presence": "مرافقة",
+          "simplify": "بسّط",
+          "refine": "طوّر"
+        },
+        "presence": {
+          "be": "حدّد",
+          "present": "كل",
+          "listen": "تفصيلة",
+          "deeply": "بميزان",
+          "observe": "رؤى",
+          "ampersand": "→",
+          "feel": "مطمئن",
+          "make": "هيكل",
+          "better": "منظّم",
+          "decisions": "أنظمة",
+          "the": "مصممة",
+          "creative": "تقارير",
+          "process": "عمليات",
+          "is": "من أجل",
+          "mysterious": "فريقك",
+          "simplicity_s": "تفاصيل",
+          "simplicity_i1": "مدروسة",
+          "simplicity_m": "بدقة",
+          "simplicity_p": "متتابعة",
+          "simplicity_l": "تفاصيل",
+          "simplicity_i2": "مدروسة",
+          "simplicity_c": "بدقة",
+          "simplicity_i3": "متابعة",
+          "simplicity_t": "تفاصيل",
+          "simplicity_y": "مدروسة",
+          "isTheKey": "يمنحك الطمأنينة",
+          "findYourVoice": "صمم التجربة",
+          "trustIntuition": "اعتمد على الدليل",
+          "embraceSilence": "اقرأ الإشارات",
+          "questionEverything": "تحقق من كل خطوة",
+          "truth": "وضوح",
+          "wisdom": "معرفة",
+          "focus": "تفاصيل",
+          "attention": "دقة",
+          "awareness": "رؤية",
+          "presence": "مرافقة",
+          "simplify": "نظّم",
+          "refine": "أتقن"
+        },
+        "feel": {
+          "be": "ابنِ الثقة",
+          "present": "مع",
+          "listen": "كل",
+          "deeply": "وعد",
+          "observe": "محقق",
+          "ampersand": "=",
+          "feel": "طمأنينة",
+          "make": "علاقات",
+          "better": "أقوى",
+          "decisions": "شراكات",
+          "the": "العميل",
+          "creative": "تجربة",
+          "process": "نحن",
+          "is": "نحمي",
+          "mysterious": "استثمارك",
+          "simplicity_s": "ثقة",
+          "simplicity_i1": "مع",
+          "simplicity_m": "كل",
+          "simplicity_p": "تفصيلة",
+          "simplicity_l": "ثقة",
+          "simplicity_i2": "مع",
+          "simplicity_c": "كل",
+          "simplicity_i3": "تفصيلة",
+          "simplicity_t": "ثقة",
+          "simplicity_y": "مع",
+          "isTheKey": "وعد محفوظ",
+          "findYourVoice": "نسمع احتياجك",
+          "trustIntuition": "ثق بالنصيحة",
+          "embraceSilence": "اشعر بالطمأنينة",
+          "questionEverything": "نجيبك",
+          "truth": "ولاء",
+          "wisdom": "رعاية",
+          "focus": "ثقة",
+          "attention": "عناية",
+          "awareness": "خدمة",
+          "presence": "حاضرون دائمًا",
+          "simplify": "اطمئن",
+          "refine": "نرعى"
+        }
+      }
+    },
+    "search": {
+      "title": "ابحث عن عقارك",
+      "subtitle": "اضبط عوامل التصفية لاختيار العقارات التي تتناسب مع أسلوب حياتك أو أهدافك الاستثمارية.",
+      "locationLabel": "الموقع",
+      "locationPlaceholder": "المدينة أو المنطقة",
+      "typeLabel": "نوع العقار",
+      "statusLabel": "الحالة",
+      "minPriceLabel": "أقل سعر",
+      "maxPriceLabel": "أعلى سعر",
+      "filterButton": "خيارات التصفية",
+      "searchButton": "ابحث عن العقارات",
+      "resetButton": "إعادة التصفية",
+      "propertiesAvailable": "{{count}} عقار متاح",
+      "invalidPriceTitle": "نطاق سعر غير صالح",
+      "invalidPriceMessage": "يجب ألا يتجاوز الحد الأدنى للسعر الحد الأقصى.",
+      "priceOptions": {
+        "any": "الكل",
+        "egp1m": "١ مليون ج.م",
+        "egp2_5m": "٢.٥ مليون ج.م",
+        "egp5m": "٥ مليون ج.م",
+        "egp10m": "١٠ مليون ج.م",
+        "egp15m": "١٥ مليون ج.م",
+        "egp25m": "٢٥ مليون ج.م"
+      },
+      "maxPriceOption": "{{price}}+"
+    },
+    "statusOptions": {
+      "any": "أي حالة",
+      "forSale": "للبيع",
+      "forRent": "للإيجار"
+    },
+    "propertyTypes": {
+      "any": "أي نوع",
+      "luxuryVillas": "فيلات فاخرة",
+      "twinVillas": "فيلات توين",
+      "duplexResidences": "دوبلكس",
+      "signatureApartments": "شقق مميزة",
+      "commercialSpaces": "مساحات تجارية",
+      "primeLand": "أراضٍ مميزة"
+    },
+    "sections": {
+      "topLocationsLabel": "أفضل المواقع",
+      "topLocationsTitle": "استكشف العقارات حسب المدينة",
+      "topLocationsDescription": "اكتشف أفضل الفرص العقارية في أهم مدن مصر. كل مدينة تمنحك خيارات استثمارية وحياتية مميزة.",
+      "viewAll": "استكشف جميع العقارات",
+      "topDevelopersLabel": "أفضل المطورين",
+      "topDevelopersTitle": "مطورين موثوق بهم",
+      "topDevelopersDescription": "اكتشف العقارات من أكثر المطورين العقاريين ثقة وسمعة في مصر.",
+      "viewAllDevelopers": "عرض جميع المطورين",
+      "featuredLabel": "عقارات مميزة",
+      "featuredTitle": "عقارات مختارة بعناية",
+      "featuredDescription": "استكشف مجموعتنا المختارة بعناية من العقارات الفاخرة التي تتميز بالجودة العالية وفرص الاستثمار القوية.",
+      "appreciationRate": "+{{rate}}٪ سنويًا",
+      "propertiesCount_zero": "لا توجد عقارات",
+      "propertiesCount_one": "عقار واحد",
+      "propertiesCount_two": "عقاران",
+      "propertiesCount_few": "{{count}} عقارات",
+      "propertiesCount_many": "{{count}} عقارًا",
+      "propertiesCount_other": "{{count}} عقار"
+    },
+    "listings": {
+      "errorTitle": "تعذر تحميل العقارات.",
+      "errorMessage": "يرجى تحديث الصفحة أو المحاولة لاحقًا.",
+      "retry": "إعادة المحاولة",
+      "emptyFilters": "لا توجد عقارات مطابقة لخيارات البحث.",
+      "emptyDefault": "لا توجد عقارات متاحة في الوقت الحالي.",
+      "adjustFilters": "جرّب تعديل خيارات التصفية أو إعادة تعيينها لعرض المزيد من النتائج.",
+      "checkBack": "عد لاحقًا لمتابعة أحدث العقارات الفاخرة.",
+      "clearFilters": "مسح التصفية",
+      "exploreAll": "استكشف جميع القوائم"
+    },
+    "leadSteps": {
+      "genericRequired": "هذا الحقل مطلوب",
+      "validationError": "خطأ في الإدخال",
+      "stepToast": {
+        "successTitle": "شكرًا لك!",
+        "successSubtitle": "سيتواصل معك أحد خبراء بصيرة قريبًا.",
+        "fallbackSubtitle": "استلمنا طلبك وسنتواصل معك قريبًا.",
+        "errorTitle": "فشل في الإرسال",
+        "errorSubtitle": "يرجى المحاولة مرة أخرى أو التواصل معنا مباشرة."
+      },
+      "name": {
+        "label": "الاسم الكامل",
+        "placeholder": "أدخل اسمك الكامل",
+        "required": "الاسم مطلوب",
+        "min": "يجب ألا يقل الاسم عن حرفين"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل بريدك الإلكتروني",
+        "required": "البريد الإلكتروني مطلوب",
+        "invalid": "يرجى إدخال بريد إلكتروني صالح"
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم هاتفك",
+        "required": "رقم الهاتف مطلوب",
+        "invalid": "يرجى إدخال رقم هاتف صالح"
+      },
+      "service": {
+        "label": "الخدمة المطلوبة",
+        "required": "يرجى اختيار الخدمة",
+        "options": {
+          "buy": "شراء عقار",
+          "rent": "استئجار عقار",
+          "sell": "بيع عقار",
+          "invest": "استثمار"
+        }
+      },
+      "propertyType": {
+        "label": "نوع العقار",
+        "required": "يرجى اختيار نوع العقار",
+        "options": {
+          "villa": "فيلا",
+          "apartment": "شقة",
+          "townhouse": "تاون هاوس",
+          "penthouse": "بنتهاوس",
+          "duplex": "دوبلكس"
+        }
+      },
+      "location": {
+        "label": "الموقع المفضل",
+        "placeholder": "حدد المدينة أو المنطقة",
+        "required": "الموقع مطلوب"
+      }
+    },
+    "leadForm": {
+      "badge": "ابدأ الآن",
+      "title": "اعثر على عقار أحلامك",
+      "subtitle": "شاركنا احتياجاتك ودع خبراءنا يجدون لك الأنسب",
+      "submit": "إرسال الطلب",
+      "toast": {
+        "successTitle": "شكرًا لك!",
+        "successSubtitle": "سيتواصل معك فريقنا خلال وقت قصير.",
+        "errorTitle": "تعذر الإرسال",
+        "errorSubtitle": "يرجى المحاولة مرة أخرى."
+      },
+      "validation": {
+        "nameRequired": "الاسم مطلوب",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "emailInvalid": "يرجى إدخال بريد إلكتروني صالح",
+        "phoneRequired": "رقم الهاتف مطلوب"
+      },
+      "fields": {
+        "name": {
+          "label": "الاسم الكامل *",
+          "placeholder": "أدخل اسمك الكامل"
+        },
+        "email": {
+          "label": "البريد الإلكتروني *",
+          "placeholder": "name@example.com"
+        },
+        "phone": {
+          "label": "رقم الهاتف *",
+          "placeholder": "+20 123 456 7890"
+        },
+        "service": {
+          "label": "أرغب في *",
+          "options": {
+            "buy": "شراء عقار",
+            "rent": "استئجار عقار",
+            "sell": "بيع عقاري",
+            "invest": "استثمار"
+          }
+        },
+        "propertyType": {
+          "label": "نوع العقار *",
+          "options": {
+            "apartment": "شقة",
+            "villa": "فيلا",
+            "duplex": "دوبلكس",
+            "twinVilla": "توين فيلا",
+            "land": "أرض",
+            "commercial": "تجاري"
+          }
+        },
+        "purpose": {
+          "label": "الغرض *",
+          "options": {
+            "investment": "استثمار",
+            "personal": "سكن شخصي"
+          }
+        },
+        "budgetFrom": {
+          "label": "الميزانية من (ج.م)",
+          "placeholder": "مثال: 2,000,000"
+        },
+        "budgetTo": {
+          "label": "الميزانية إلى (ج.م)",
+          "placeholder": "مثال: 5,000,000"
+        },
+        "location": {
+          "label": "الموقع المفضل",
+          "placeholder": "مثال: القاهرة الجديدة، الشيخ زايد"
+        },
+        "message": {
+          "label": "متطلبات إضافية",
+          "placeholder": "أخبرنا بالمزيد عن احتياجاتك..."
+        }
+      }
+    },
+    "errorBoundary": {
+      "title": "حدث خطأ غير متوقع",
+      "subtitle": "نعمل على حل المشكلة. يرجى إعادة تحميل الصفحة.",
+      "cta": "إعادة تحميل الصفحة"
+    }
+  },
+  "notFound": {
+    "metaTitle": "٤٠٤ - الصفحة غير موجودة | بصيرة العقارية",
+    "metaDescription": "الصفحة التي تبحث عنها غير متوفرة. واصل تصفح أفضل العقارات والخدمات مع بصيرة.",
+    "hero": {
+      "title": "عذراً! الصفحة غير موجودة",
+      "subtitle": "يبدو أن الصفحة المطلوبة اختفت في الفضاء الرقمي، لكن عقاراتنا المختارة وخبراؤنا ما زالوا في خدمتك."
+    },
+    "actions": {
+      "home": "العودة للصفحة الرئيسية",
+      "browse": "تصفّح العقارات"
+    },
+    "links": {
+      "about": "من نحن",
+      "developers": "المطورون",
+      "launches": "المشروعات",
+      "contact": "تواصل معنا"
+    },
+    "backButton": "رجوع"
+  },
+  "properties": {
+    "metaTitle": "العقارات - بصيرة العقارية",
+    "metaDescription": "استكشف مجموعة بصيرة المختارة من المنازل الفاخرة وفرص الاستثمار في أهم مناطق مصر.",
+    "searchPlaceholder": "ابحث حسب النوع أو المنطقة أو المطور",
+    "searchPlaceholderMobile": "ابحث حسب النوع أو المنطقة أو المطور",
+    "sort": {
+      "label": "ترتيب حسب",
+      "newest": "الأحدث أولاً",
+      "oldest": "الأقدم أولاً",
+      "priceAsc": "السعر: من الأقل إلى الأعلى",
+      "priceDesc": "السعر: من الأعلى إلى الأقل",
+      "popular": "الأكثر شهرة"
+    },
+    "filters": {
+      "toggle": "التصفية",
+      "title": "التصفية",
+      "location": "الموقع",
+      "reset": "إعادة",
+      "governorate": "المحافظة",
+      "city": "المدينة",
+      "area": "المنطقة",
+      "selectGovernorateFirst": "اختر المحافظة أولاً",
+      "selectCityFirst": "اختر المدينة أولاً",
+      "developers": "المطورون",
+      "bedrooms": "غرف النوم",
+      "bathrooms": "الحمامات",
+      "propertyTypes": "أنواع العقارات",
+      "furnishing": "التشطيب",
+      "price": "السعر",
+      "unitArea": "المساحة",
+      "amenities": "الخدمات",
+      "mostPopular": "الأكثر رواجًا",
+      "allProperties": "جميع العقارات",
+      "onlyFeatured": "العقارات المميزة فقط",
+      "resetAll": "إعادة ضبط جميع التصفية"
+    },
+    "filterOptions": {
+      "propertyTypes": {
+        "apartment": "شقة",
+        "villa": "فيلا",
+        "twinVilla": "توين فيلا",
+        "duplex": "دوبلكس",
+        "land": "أرض",
+        "commercial": "تجاري"
+      },
+      "furnishing": {
+        "unfurnished": "غير مفروش",
+        "semiFurnished": "نصف مفروش",
+        "furnished": "مفروش بالكامل"
+      },
+      "amenities": {
+        "privatePool": "حمام سباحة خاص",
+        "clubhouse": "الدخول إلى النادي",
+        "undergroundParking": "موقف سيارات سفلي",
+        "security24_7": "حراسة 24/7",
+        "smartHome": "نظام منزل ذكي",
+        "beachAccess": "إمكانية الوصول للشاطئ",
+        "gymMembership": "عضوية نادي رياضي",
+        "valetParking": "خدمة صف السيارات",
+        "conferenceCenter": "قاعة مؤتمرات",
+        "golfCourse": "الدخول إلى ملعب الجولف",
+        "communityPools": "حمامات سباحة مجتمعية",
+        "marinaAccess": "إمكانية الوصول للمارينا",
+        "kidsPlayArea": "منطقة ألعاب للأطفال",
+        "medicalClinic": "عيادة طبية"
+      }
+    },
+    "labels": {
+      "allGovernorates": "جميع المحافظات",
+      "allCities": "جميع المدن",
+      "allAreas": "جميع المناطق",
+      "min": "الحد الأدنى",
+      "max": "الحد الأقصى",
+      "minSqm": "أقل مساحة (م²)",
+      "maxSqm": "أعلى مساحة (م²)",
+      "priceFrom": "أقل سعر",
+      "priceTo": "أعلى سعر"
+    },
+    "states": {
+      "loading": "جاري تحميل العقارات...",
+      "error": "فشل تحميل العقارات",
+      "empty": "لا توجد عقارات مطابقة لمعايير البحث",
+      "emptyShort": "لا توجد عقارات مطابقة لمعايير البحث",
+      "clearPrompt": "مسح التصفية"
+    },
+    "buttons": {
+      "applyFilters": "تطبيق التصفية",
+      "tryAgain": "أعد المحاولة",
+      "clearFilters": "مسح التصفية",
+      "previous": "السابق",
+      "next": "التالي"
+    },
+    "actions": {
+      "seeMore": "عرض المزيد"
+    },
+    "currency": {
+      "egp": "ج.م"
+    },
+    "propertyTypeLabels": {
+      "apartment": "شقة",
+      "villa": "فيلا",
+      "twin-villa": "توين فيلا",
+      "duplex": "دوبلكس",
+      "land": "أرض",
+      "commercial": "تجاري"
+    },
+    "toast": {
+      "added": "تمت الإضافة إلى المفضلة",
+      "addFailed": "تعذر الإضافة إلى المفضلة",
+      "removed": "تمت الإزالة من المفضلة",
+      "removeFailed": "تعذر الإزالة من المفضلة",
+      "loginRequired": "يرجى تسجيل الدخول لحفظ المفضلة",
+      "shareSuccess": "تمت مشاركة العقار بنجاح!",
+      "copySuccess": "تم نسخ رابط العقار إلى الحافظة!",
+      "copyFailed": "تعذر نسخ الرابط. يرجى النسخ يدويًا."
+    },
+    "cards": {
+      "title": "{{type}}، {{title}}",
+      "description": "{{bedrooms}} {{type}} في {{title}} من تطوير {{developer}}. المساحة: {{area}} مع {{bathrooms}}.",
+      "unknownDeveloper": "مطور غير معروف",
+      "area": "{{value}} {{unit}}",
+      "areaUnit": "م²",
+      "areaUnknown": "المساحة غير محددة",
+      "areaUnknownShort": "غير متوفر",
+      "bedrooms": "{{count}} غرف نوم",
+      "bedrooms_zero": "{{count}} غرفة نوم",
+      "bedrooms_one": "غرفة نوم واحدة",
+      "bedrooms_two": "غرفتا نوم",
+      "bedrooms_few": "{{count}} غرف نوم",
+      "bedrooms_many": "{{count}} غرفة نوم",
+      "bedrooms_other": "{{count}} غرفة نوم",
+      "bathrooms": "{{count}} حمامات",
+      "bathrooms_zero": "{{count}} حمامات",
+      "bathrooms_one": "حمام واحد",
+      "bathrooms_two": "حمامان",
+      "bathrooms_few": "{{count}} حمامات",
+      "bathrooms_many": "{{count}} حمامًا",
+      "bathrooms_other": "{{count}} حمام",
+      "price": "{{value}} {{currency}}",
+      "priceUnknown": "السعر عند الطلب",
+      "noImage": "لا توجد صورة متاحة",
+      "shareTooltip": "مشاركة العقار",
+      "shareText": "اطلع على هذا {{type}}: {{title}} - {{price}}",
+      "whatsappButton": "واتساب",
+      "whatsappMessage": "أنا مهتم بعقار {{title}}",
+      "locationUnknown": "الموقع غير محدد",
+      "compoundBadge": "عرض الكمبوند"
+    }
+  },
+  "compound": {
+    "status": {
+      "planning": "قيد التخطيط",
+      "launching": "قيد الإطلاق",
+      "active": "نشط",
+      "delivered": "تم التسليم",
+      "on-hold": "متوقف مؤقتًا"
+    }
+  },
+  "propertyDetail": {
+    "metaTitle": "{{title}} - بصيرة العقارية",
+    "metaDescriptionFallback": "اكتشف التفاصيل الكاملة لهذا العقار.",
+    "titleFallback": "عقار",
+    "locationUnknown": "الموقع غير متوفر",
+    "loading": {
+      "message": "جارٍ تحميل تفاصيل العقار..."
+    },
+    "errors": {
+      "notFound": "لم يتم العثور على العقار",
+      "id": "المعرف: {{id}}",
+      "message": "الخطأ: {{message}}",
+      "noMessage": "لا توجد رسالة خطأ",
+      "back": "العودة إلى العقارات"
+    },
+    "share": {
+      "fallback": "اطلع على هذا العقار",
+      "title": "عقار"
+    },
+    "price": {
+      "label": "{{value}} {{currency}}",
+      "onRequest": "السعر عند الطلب"
+    },
+    "status": {
+      "available": "متاح",
+      "for-sale": "للبيع",
+      "for-rent": "للإيجار",
+      "sold": "مباع",
+      "sold-out": "مباع بالكامل",
+      "pre-launch": "قبل الإطلاق",
+      "coming-soon": "قريبًا"
+    },
+    "gallery": {
+      "hero": "مميز",
+      "noImages": "لا توجد صور متاحة"
+    },
+    "floorPlan": {
+      "view": "عرض مخطط الوحدة",
+      "unavailable": "مخطط الوحدة غير متوفر"
+    },
+    "masterPlan": {
+      "view": "عرض المخطط العام",
+      "unavailable": "المخطط العام غير متوفر"
+    },
+    "watchVideo": {
+      "single": "مشاهدة الفيديو",
+      "playlist": "مشاهدة الفيديوهات"
+    },
+    "developer": {
+      "heading": "معلومات المطور",
+      "status": "حالة التطوير",
+      "label": "المطور",
+      "viewAll": "عرض جميع العقارات"
+    },
+    "compound": {
+      "heading": "معلومات عن الكمبوند",
+      "developer": "المطور: {{developer}}",
+      "launchDate": "تاريخ الإطلاق",
+      "handoverDate": "تاريخ التسليم",
+      "overviewBadge": "عرض الكمبوند",
+      "overviewDescription": "تستعرض هذه البطاقة الكمبوند بالكامل ومراحله الرئيسية.",
+      "linkedDescription": "هذه الوحدة تابعة للكمبوند الموضح أعلاه.",
+      "noHero": "لا توجد صورة متاحة للكمبوند حتى الآن."
+    },
+    "specs": {
+      "bedrooms": "غرف النوم",
+      "bathrooms": "الحمامات",
+      "areaUnit": "م²",
+      "parking": "مواقف السيارات"
+    },
+    "description": {
+      "heading": "الوصف",
+      "empty": "لا توجد تفاصيل متاحة."
+    },
+    "features": {
+      "heading": "المميزات"
+    },
+    "investment": {
+      "heading": "تفاصيل الاستثمار",
+      "expectedROI": "العائد المتوقع",
+      "rentalYield": "عائد الإيجار",
+      "pricePerSqm": "السعر لكل {{unit}}",
+      "pricePerSqmFallback": "السعر لكل متر مربع"
+    },
+    "location": {
+      "heading": "الموقع"
+    },
+    "inquiry": {
+      "heading": "مهتم بهذا العقار؟",
+      "cta": "إرسال استفسار",
+      "ctaLogin": "إرسال استفسار (يتطلب تسجيل الدخول)",
+      "call": "اتصل الآن",
+      "email": "راسل الوكيل",
+      "loggedIn": "تم تسجيل الدخول باسم: {{name}} ({{email}})",
+      "loggedInNote": "سيتم تعبئة بياناتك تلقائيًا في نموذج الاستفسار.",
+      "guest": "لم تقم بتسجيل الدخول: يرجى إدخال بيانات التواصل أدناه.",
+      "loginPrompt": "سجل الدخول هنا",
+      "loginNote": "لتعبئة بياناتك تلقائيًا.",
+      "labels": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "phone": "رقم الهاتف (مثال: ‎+1234567890)",
+        "message": "رسالتك... (الحد الأدنى 10 أحرف)"
+      },
+      "buttons": {
+        "submit": "إرسال الاستفسار",
+        "cancel": "إلغاء"
+      },
+      "validation": {
+        "nameRequired": "الاسم مطلوب",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "emailInvalid": "يرجى إدخال بريد إلكتروني صالح",
+        "phoneRequired": "رقم الهاتف مطلوب",
+        "phoneInvalid": "يرجى إدخال رقم هاتف صالح (مثال: ‎+1234567890)",
+        "messageRequired": "الرسالة مطلوبة",
+        "messageMin": "يجب ألا تقل الرسالة عن 10 أحرف",
+        "messageMax": "يجب ألا تزيد الرسالة عن 1000 حرف"
+      },
+      "successTitle": "تم إرسال الاستفسار بنجاح!",
+      "successSubtitle": "سنتواصل معك قريبًا.",
+      "errorTitle": "تعذر إرسال الاستفسار"
+    },
+    "contact": {
+      "loginRequiredTitle": "مطلوب تسجيل الدخول",
+      "loginRequiredMessage": "يرجى تسجيل الدخول للتواصل مع الوكيل",
+      "emailSubject": "استفسار حول {{title}}",
+      "emailBody": "مرحبًا،\n\nأنا مهتم بالعقار: {{title}}\n\nيرجى التواصل معي لمزيد من المعلومات.\n\nشكرًا لكم."
+    },
+    "agent": {
+      "heading": "وكيل العقار",
+      "contact": "تواصل مع الوكيل",
+      "emailFallback": "agent@basira.com",
+      "nameFallback": "وكيل"
+    }
+  },
+  "about": {
+    "metaTitle": "من نحن - بصيرة العقارية",
+    "metaDescription": "اكتشف رؤية بصيرة لتصبح المنصة العقارية الرائدة في الشرق الأوسط وتمكين القرارات الاستثمارية الواعية.",
+    "hero": {
+      "badge": "عن بصيرة",
+      "title": "نُمكّنك في رحلتك العقارية",
+      "subtitle": "تلتزم بصيرة بتقديم تجربة عقارية شاملة ومختلفة تتجاوز حدود البيع. نقدم محتوى تعليميًا متقدمًا واستشارات احترافية لمساعدتك على اتخاذ قرارات واثقة ومدروسة."
+    },
+    "vision": {
+      "badge": "رؤيتنا",
+      "headline": "منصة عقارية رائدة",
+      "highlight": "في الشرق الأوسط",
+      "description": "نسعى لترسيخ بصيرة كأكثر منصة عقارية تأثيرًا في الشرق الأوسط، تربط الناس ليس فقط بالشقق والمجمعات بل برؤية متكاملة لحياة مليئة بالإثراء والأثر.",
+      "pillars": [
+        {
+          "title": "منصة رائدة في الشرق الأوسط",
+          "description": "ترسيخ بصيرة كأبرز مرجع تعليمي وتوعوي في العالم العربي، لتكون ضمن كبرى الشركات في القطاع."
+        },
+        {
+          "title": "إعادة تشكيل الاستثمار العقاري",
+          "description": "قيادة التحول في طريقة تفكير الناس بالعقار، لنصبح أصحاب رؤية مؤثرة في السوق."
+        },
+        {
+          "title": "تمكين قرارات واعية",
+          "description": "تمكين الأفراد والمستثمرين من اتخاذ قرارات واعية مبنية على البيانات بثقة وبصيرة استراتيجية."
+        },
+        {
+          "title": "بناء مستقبل مستدام",
+          "description": "خلق منظومة عقارية متكاملة تُركّز على أسلوب حياة متكامل ونمو استراتيجي ومسؤولية مجتمعية."
+        }
+      ]
+    },
+    "mission": {
+      "badge": "مهمتنا",
+      "headline": "تجاوز حدود البيع وبناء",
+      "highlight": "علاقات دائمة",
+      "description": "تلتزم بصيرة بتقديم تجربة عقارية شاملة ومميزة تتجاوز حدود البيع. نقدم محتوى تعليميًا وتوعويًا متقدمًا إلى جانب استشارات مهنية موثوقة.",
+      "elements": [
+        "تقديم تجربة عقارية شاملة ومتفردة تتجاوز البيع، مع التركيز على بناء علاقات طويلة الأمد مدعومة بالبيانات.",
+        "التميّز عن شركات العقار التقليدية بتقديم رحلة مختلفة ومثرية، وليس مجرد عملية بيع.",
+        "تقديم محتوى تعليمي عالي الجودة يعزز الثقة والوعي العقاري، مدعوم باستشارات متخصصة موثوقة.",
+        "تمكين العملاء بأعمق رؤى السوق وفهم الاقتصاد لتوجيههم نحو قرارات استثمارية واثقة وحكيمة.",
+        "بناء علاقات طويلة الأمد قائمة على الثقة تربط العملاء بأفضل الفرص العقارية الملائمة لاحتياجاتهم وأهدافهم المستقبلية."
+      ]
+    },
+    "objectives": {
+      "badge": "أهدافنا الاستراتيجية",
+      "headline": "طريقنا نحو",
+      "highlight": "الريادة السوقية",
+      "items": [
+        {
+          "number": "01",
+          "title": "الريادة التعليمية",
+          "description": "ترسيخ بصيرة كأقوى منصة تعليم وتوعية عقارية في العالم العربي خلال السنوات الأربع القادمة."
+        },
+        {
+          "number": "02",
+          "title": "توسيع نطاق الخدمات",
+          "description": "توسيع نطاق خدماتنا ليشمل شراكات الأعمال (B2B) إلى جانب الأفراد (B2C) لتعزيز الحضور في السوق."
+        },
+        {
+          "number": "03",
+          "title": "تحالفات استراتيجية",
+          "description": "تعزيز الشراكات مع كبرى الشركات العقارية في مصر والشرق الأوسط."
+        }
+      ]
+    },
+    "values": {
+      "badge": "قيمنا الجوهرية",
+      "headline": "ما يدفعنا",
+      "highlight": "للمضي قدمًا",
+      "description": "قيمنا الجوهرية تحدد هويتنا وتوجّه كل قرار نتخذه في بصيرة.",
+      "items": [
+        {
+          "title": "الالتزام",
+          "description": "نلتزم بتقديم معلومات دقيقة وموثوقة لعملائنا، لضمان الثقة في كل تفاعل."
+        },
+        {
+          "title": "الابتكار",
+          "description": "نطوّر خدماتنا ومنتجاتنا باستمرار لتلبية احتياجات عملائنا المتجددة ومتطلبات السوق."
+        },
+        {
+          "title": "الشفافية",
+          "description": "نحافظ على أعلى درجات الوضوح في تعاملاتنا مع العملاء والشركاء لبناء علاقات مستدامة."
+        },
+        {
+          "title": "التميز",
+          "description": "نسعى للتميز في كل ما نقوم به لضمان تجربة استثنائية لعملائنا."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "هل أنت مستعد لبدء",
+      "highlight": "رحلتك العقارية؟",
+      "description": "انضم إلى آلاف المستثمرين الواعين الذين يثقون ببصيرة في قراراتهم العقارية.",
+      "button": "استكشف العقارات"
+    }
+  },
+  "contact": {
+    "metaTitle": "تواصل معنا | بصيرة العقارية",
+    "metaDescription": "تواصل مع فريق بصيرة العقارية للحصول على استشارات عقارية مخصصة وخدمات احترافية.",
+    "hero": {
+      "badge": "تواصل معنا",
+      "title": "لنبدأ رحلتك",
+      "highlight": "العقارية",
+      "subtitle": "تواصل مع فريق خبرائنا للحصول على حلول عقارية مخصصة وإرشاد مهني."
+    },
+    "cards": {
+      "email": {
+        "title": "راسلنا عبر البريد",
+        "subtitle": "نرد خلال يوم عمل واحد"
+      },
+      "phone": {
+        "title": "اتصل بنا",
+        "subtitle": "تحدث مباشرة مع مستشارينا"
+      },
+      "address": {
+        "title": "زرنا",
+        "subtitle": "احجز موعدًا لزيارة مقرنا",
+        "details": "القاهرة، مصر"
+      }
+    },
+    "features": [
+      {
+        "title": "خدمة مخصصة",
+        "description": "توصيات عقارية مصممة بما يلائم نمط حياتك وأهدافك الاستثمارية."
+      },
+      {
+        "title": "إرشاد خبراء",
+        "description": "نصائح مهنية يقدمها مستشارون ذوو خبرة واسعة في السوق المصري."
+      },
+      {
+        "title": "استجابة سريعة",
+        "description": "نرد على كل الاستفسارات خلال 24 ساعة لضمان استمرار خططك."
+      }
+    ],
+    "form": {
+      "title": "أرسل لنا رسالة",
+      "infoTitle": "مستعد للعثور على عقارك المثالي؟",
+      "infoDescription": "أكمل النموذج وسيتواصل معك فريقنا الخبير خلال 24 ساعة مع توصيات مصممة لك.",
+      "selectPlaceholder": "اختر الخدمة",
+      "services": {
+        "buy": "شراء عقار",
+        "sell": "بيع عقار",
+        "rent": "استئجار عقار",
+        "consultation": "استشارة",
+        "investment": "نصيحة استثمارية"
+      },
+      "fields": {
+        "firstName": {
+          "label": "الاسم الأول *",
+          "placeholder": "محمد"
+        },
+        "lastName": {
+          "label": "اسم العائلة *",
+          "placeholder": "أحمد"
+        },
+        "email": {
+          "label": "البريد الإلكتروني *",
+          "placeholder": "name@example.com"
+        },
+        "phone": {
+          "label": "رقم الهاتف *",
+          "placeholder": "+20 123 456 7890"
+        },
+        "service": {
+          "label": "الخدمة المطلوبة *"
+        },
+        "message": {
+          "label": "رسالتك",
+          "placeholder": "أخبرنا باحتياجاتك..."
+        }
+      },
+      "sending": "جاري الإرسال...",
+      "submitLabel": "إرسال الرسالة"
+    },
+    "toast": {
+      "success": {
+        "title": "تم إرسال الرسالة بنجاح!",
+        "subtitle": "سنتواصل معك خلال 24 ساعة."
+      },
+      "error": {
+        "title": "تعذر إرسال الرسالة",
+        "subtitle": "يرجى التحقق من البيانات والمحاولة مرة أخرى."
+      }
+    },
+    "validation": {
+      "firstNameRequired": "الاسم الأول مطلوب",
+      "lastNameRequired": "اسم العائلة مطلوب",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "يرجى إدخال بريد إلكتروني صالح",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "serviceRequired": "يرجى اختيار الخدمة المطلوبة"
+    },
+    "map": {
+      "title": "زر مكتبنا",
+      "subtitle": "تعرّف على فريقنا شخصيًا واحصل على استشارة مخصصة.",
+      "iframeTitle": "موقع مكتب بصيرة"
+    }
+  },
+  "developers": {
+    "metaTitle": "المطورون العقاريون | بصيرة",
+    "metaDescription": "تصفح قائمة المطورين العقاريين الموثوقين في مصر واكتشف أحدث المشروعات.",
+    "hero": {
+      "badge": "شركاؤنا الموثوقون",
+      "titleLine1": "أبرز مطوري",
+      "titleHighlight": "العقارات في مصر",
+      "subtitle": "اكتشف المطورين الموثوقين وراء أهم المشروعات العقارية في مصر."
+    },
+    "controls": {
+      "searchPlaceholder": "ابحث عن مطور...",
+      "sortLabel": "ترتيب حسب:",
+      "sortName": "الاسم",
+      "sortProjects": "عدد المشروعات"
+    },
+    "resultsCount": "تم العثور على {{count}} مطور",
+    "resultsCount_zero": "لم يتم العثور على مطورين",
+    "resultsCount_one": "تم العثور على مطور واحد",
+    "resultsCount_two": "تم العثور على مطورين",
+    "resultsCount_few": "تم العثور على {{count}} مطورين",
+    "resultsCount_many": "تم العثور على {{count}} مطورًا",
+    "resultsCount_other": "تم العثور على {{count}} مطور",
+    "states": {
+      "error": {
+        "title": "تعذر تحميل المطورين",
+        "subtitle": "يرجى المحاولة لاحقًا."
+      },
+      "empty": {
+        "title": "لا يوجد مطورون",
+        "search": "جرّب تعديل كلمات البحث.",
+        "default": "ترقب معنا أحدث المطورين قريبًا."
+      }
+    },
+    "cards": {
+      "projects": "{{count}} مشروع",
+      "projects_zero": "لا توجد مشروعات",
+      "projects_one": "مشروع واحد",
+      "projects_two": "مشروعان",
+      "projects_few": "{{count}} مشروعات",
+      "projects_many": "{{count}} مشروعًا",
+      "projects_other": "{{count}} مشروع",
+      "ctaLabel": "عرض جميع المشروعات",
+      "ctaAction": "استكشف"
+    }
+  },
+  "launches": {
+    "metaTitle": "الطروحات العقارية الحصرية | بصيرة العقارية",
+    "metaDescription": "اكتشف أحدث الطروحات العقارية من كبرى المطورين في مصر واحصل على أسبقية الحجز.",
+    "hero": {
+      "badge": "طروحات حصرية",
+      "titleLine1": "اكتشف أحدث",
+      "titleHighlight": "المشروعات في مصر",
+      "subtitle": "احصل على أسبقية الوصول إلى أحدث الطروحات العقارية من أبرز المطورين في مصر."
+    },
+    "filters": {
+      "searchPlaceholder": "ابحث عن طروحات...",
+      "toggle": "التصفية",
+      "statusLabel": "الحالة",
+      "statusAll": "الكل",
+      "propertyTypeLabel": "نوع العقار",
+      "propertyTypeAll": "جميع الأنواع",
+      "clearAll": "مسح جميع التصفية",
+      "propertyTypes": {
+        "villa": "فيلا",
+        "apartment": "شقة",
+        "townhouse": "تاون هاوس",
+        "penthouse": "بنتهاوس",
+        "duplex": "دوبلكس",
+        "studio": "استوديو",
+        "commercial": "تجاري",
+        "land": "أرض"
+      }
+    },
+    "status": {
+      "available": "متاح",
+      "coming-soon": "قريبًا",
+      "pre-launch": "قبل الطرح",
+      "sold-out": "مباع بالكامل"
+    },
+    "currency": {
+      "egp": "ج.م"
+    },
+    "units": {
+      "sqm": "م²"
+    },
+    "resultsCount": "تم العثور على {{count}} طرح",
+    "resultsCount_zero": "لم يتم العثور على طروحات",
+    "resultsCount_one": "تم العثور على طرح واحد",
+    "resultsCount_two": "تم العثور على طرحين",
+    "resultsCount_few": "تم العثور على {{count}} طروحات",
+    "resultsCount_many": "تم العثور على {{count}} طرحًا",
+    "resultsCount_other": "تم العثور على {{count}} طرح",
+    "states": {
+      "empty": {
+        "title": "لا توجد طروحات",
+        "subtitle": "جرّب تعديل خيارات البحث أو التصفية.",
+        "cta": "مسح التصفية"
+      }
+    },
+    "cards": {
+      "featured": "مميز",
+      "byDeveloper": "بواسطة {{developer}}",
+      "price": "{{value}} {{currency}}",
+      "countdown": "({{count}} يوم متبقٍ)",
+      "area": "{{value}} {{unit}}",
+      "bedrooms": "{{count}} غرف",
+      "bedrooms_zero": "0 غرف",
+      "bedrooms_one": "غرفة واحدة",
+      "bedrooms_two": "غرفتان",
+      "bedrooms_few": "{{count}} غرف",
+      "bedrooms_many": "{{count}} غرفة",
+      "bedrooms_other": "{{count}} غرفة",
+      "view": "عرض"
+    }
+  },
+  "blog": {
+    "metaTitle": "مدونة بصيرة | رؤى واستراتيجيات السوق العقاري",
+    "metaDescription": "تابع أحدث أخبار العقارات وتحليلات السوق وأدلة الاستثمار واتجاهات الملكية في مصر مع بصيرة.",
+    "hero": {
+      "badge": "رؤى وتحليلات",
+      "title": "مدونة بصيرة",
+      "subtitle": "مصدرُك للمعرفة العقارية، واتجاهات السوق، ونصائح الاستثمار."
+    },
+    "searchPlaceholder": "ابحث عن المقالات...",
+    "categories": {
+      "all": "الكل",
+      "real-estate-tips": "نصائح عقارية",
+      "market-insights": "رؤى السوق",
+      "investment-guide": "دليل الاستثمار",
+      "property-news": "أخبار العقار",
+      "developer-updates": "تحديثات المطورين",
+      "general": "عام"
+    },
+    "featured": {
+      "heading": "مقالات مميزة"
+    },
+    "latest": {
+      "heading": "أحدث المقالات"
+    },
+    "states": {
+      "emptyTitle": "لا توجد مقالات",
+      "emptySubtitle": "جرّب تعديل البحث أو فلتر الفئات."
+    },
+    "cards": {
+      "read": "اقرأ",
+      "readMore": "اقرأ المزيد",
+      "views": "{{formatted}} مشاهدة",
+      "views_zero": "{{formatted}} مشاهدة",
+      "views_one": "{{formatted}} مشاهدة",
+      "views_two": "{{formatted}} مشاهدتان",
+      "views_few": "{{formatted}} مشاهدات",
+      "views_many": "{{formatted}} مشاهدة",
+      "views_other": "{{formatted}} مشاهدة"
+    }
+  },
+  "roi": {
+    "metaTitle": "حاسبة العائد على الاستثمار | بصيرة العقارية",
+    "metaDescription": "احسب عائدك العقاري بدقة مع مراعاة ظروف السوق في مصر، بما في ذلك التمويل والضرائب والصيانة ونسب الشواغر.",
+    "metaKeywords": "حاسبة العائد، استثمار عقاري، حساب عوائد العقار، سوق مصر، عائد الإيجار",
+    "section": {
+      "badge": "حاسبة الاستثمار",
+      "titleLine1": "حاسبة",
+      "titleLine2": "العائد على الاستثمار",
+      "description": {
+        "advanced": "احسب عوائد استثمارك العقاري مع عوامل مخصّصة لمصر تشمل تكاليف التمويل والضرائب والصيانة ونسب الشواغر.",
+        "simple": "حاسبة سريعة وبسيطة لحساب العائد العقاري الأساسي من الإيجار والقيمة السوقية."
+      },
+      "mode": {
+        "simple": "بسيطة",
+        "advanced": "متقدمة"
+      }
+    },
+    "inputs": {
+      "propertyDetails": "بيانات العقار",
+      "basicDetails": "بيانات أساسية",
+      "propertyPriceLabel": "سعر العقار (ج.م)",
+      "monthlyRentLabel": "دخل الإيجار الشهري (ج.م)",
+      "investmentPeriodLabel": "مدة الاستثمار (بالسنوات)",
+      "investmentPeriodRangeMin": "سنة واحدة",
+      "investmentPeriodRangeMax": "30 سنة",
+      "years": "{{count}} سنة",
+      "years_zero": "{{count}} سنة",
+      "years_one": "سنة واحدة",
+      "years_two": "سنتان",
+      "years_few": "{{count}} سنوات",
+      "years_many": "{{count}} سنة",
+      "years_other": "{{count}} سنة",
+      "location": {
+        "heading": "اختر الموقع (تعبئة تلقائية لمعدل النمو)",
+        "governorate": "المحافظة",
+        "governoratePlaceholder": "-- اختر المحافظة --",
+        "city": "المدينة",
+        "cityPlaceholder": "-- اختر المدينة --",
+        "cityPlaceholderDisabled": "-- اختر المحافظة أولاً --",
+        "area": "المنطقة",
+        "areaPlaceholder": "-- اختر المنطقة --",
+        "areaPlaceholderDisabled": "-- اختر المدينة أولاً --",
+        "areaSelected": "{{name}} ({{rate}} نمو)",
+        "areaOption": "{{name}} ({{rate}} نمو)"
+      },
+      "appreciationRate": {
+        "label": "معدل النمو السنوي (%)",
+        "labelSelected": "معدل النمو السنوي (%) (من {{name}})",
+        "min": "3٪",
+        "max": "20٪"
+      },
+      "financialHeading": "المعاملات المالية",
+      "downPayment": "دفعة مقدمة (%)",
+      "mortgageRate": "سعر الفائدة العقارية (%)",
+      "propertyTaxRate": "ضريبة العقار (%)",
+      "maintenanceRate": "الصيانة السنوية (%)",
+      "vacancyRate": "نسبة الشواغر (%)"
+    },
+    "results": {
+      "investmentReturns": "عوائد الاستثمار",
+      "quickResults": "نتائج سريعة",
+      "totalROI": "العائد الكلي",
+      "simpleROI": "العائد البسيط",
+      "annualROI": "{{value}} سنوياً",
+      "breakdown": {
+        "investment": "تفاصيل الاستثمار",
+        "simple": "تفاصيل مبسطة"
+      },
+      "futureValue": "القيمة المستقبلية للعقار",
+      "totalRentalIncome": "إجمالي دخل الإيجار",
+      "capitalAppreciation": "الزيادة الرأسمالية",
+      "totalCosts": "إجمالي التكاليف",
+      "netProfit": "صافي الربح",
+      "totalReturns": "إجمالي العائدات",
+      "monthlyDetails": "تفاصيل شهرية",
+      "simpleDetails": "تفاصيل مبسطة",
+      "monthlyMortgage": "القسط الشهري للتمويل",
+      "monthlyIncome": "دخل الإيجار الشهري",
+      "monthlyCashFlow": "التدفق النقدي الشهري",
+      "monthlyIncomeSimple": "الدخل الشهري"
+    },
+    "cta": {
+      "headingLine1": "جاهز للاستثمار في",
+      "headingHighlight": "العقارات في مصر؟",
+      "text": "اكتشف العقارات المميزة واحصل على استشارات خبراء بصيرة لتدعم رحلتك الاستثمارية.",
+      "primary": "استعرض العقارات",
+      "secondary": "احصل على استشارة"
+    },
+    "propertyWidget": {
+      "title": "الفرصة الاستثمارية",
+      "cityAppreciation": "{{city}}: {{rate}} نمو سنوي",
+      "cityFallback": "المدينة",
+      "investmentPeriod": "مدة الاستثمار",
+      "years": "{{count}} سنة",
+      "years_zero": "{{count}} سنة",
+      "years_one": "سنة واحدة",
+      "years_two": "سنتان",
+      "years_few": "{{count}} سنوات",
+      "years_many": "{{count}} سنة",
+      "years_other": "{{count}} سنة",
+      "rangeMin": "سنة واحدة",
+      "rangeMax": "30 سنة",
+      "currentValue": "القيمة الحالية",
+      "futureValue": "القيمة المستقبلية",
+      "afterYears_zero": "بعد {{count}} سنة",
+      "afterYears_one": "بعد سنة واحدة",
+      "afterYears_two": "بعد سنتين",
+      "afterYears_few": "بعد {{count}} سنوات",
+      "afterYears_many": "بعد {{count}} سنة",
+      "afterYears_other": "بعد {{count}} سنة",
+      "totalAppreciation": "إجمالي النمو",
+      "positiveValue": "+{{value}}",
+      "negativeValue": "-{{value}}",
+      "roi": "العائد على الاستثمار",
+      "annualReturn": "متوسط العائد السنوي",
+      "disclaimer": "<strong>تنبيه:</strong> يعتمد هذا الحساب على معدلات النمو التاريخية لـ {{city}} ويعكس تقديراً لقيمة العقار فقط. قد تختلف النتائج الفعلية بحسب ظروف السوق وحالة العقار وعوامل أخرى. المعلومات المقدمة لأغراض مرجعية ولا تُعد استشارة مالية."
+    }
+  },
+  "compoundsPage": {
+    "metaTitle": "الكمبوندات | بصيرة العقارية",
+    "metaDescription": "استكشف المخططات الرئيسية المتكاملة مع بصيرة العقارية، وتعرّف على مواعيد التسليم والمرافق والمطورين لاختيار مجتمعك القادم.",
+    "hero": {
+      "badge": "الكمبوندات المميزة",
+      "titleLine1": "اكتشف أحدث",
+      "titleHighlight": "المجتمعات المتكاملة في مصر",
+      "subtitle": "تابع المجتمعات القادمة، وقارن بين المرافق المتاحة، وانتقل مباشرة إلى العقارات المتاحة داخل كل كمبوند — بإشراف فريق بصيرة الاستراتيجي."
+    },
+    "stats": {
+      "total": "إجمالي الكمبوندات",
+      "featured": "المميزة",
+      "launching": "تحت الإطلاق",
+      "active": "نشطة ومفتوحة"
+    },
+    "filters": {
+      "searchPlaceholder": "ابحث باسم الكمبوند أو المطوّر أو الميزة...",
+      "refresh": "تحديث",
+      "toggle": "التصفية",
+      "syncing": "جارٍ مزامنة البيانات...",
+      "statusAll": "جميع الحالات",
+      "featuredOnly": "المميزة فقط",
+      "clear": "مسح عوامل التصفية"
+    },
+    "resultsCount": "تم العثور على {{count}} كمبوند",
+    "loading": "جارٍ تحميل الكمبوندات...",
+    "actions": {
+      "retry": "إعادة المحاولة"
+    },
+    "states": {
+      "errorTitle": "تعذر تحميل الكمبوندات",
+      "errorSubtitle": "يرجى المحاولة لاحقًا.",
+      "emptyTitle": "لا توجد كمبوندات",
+      "emptySubtitle": "جرّب تعديل البحث أو عد لاحقًا لرؤية المجتمعات الجديدة."
+    }
+  },
+  "registration": {
+    "newsletter": {
+      "label": "أريد تلقي الأخبار من النشرة الإخبارية"
+    }
+  },
+  "admin": {
+    "newsletter": {
+      "title": "اشتراكات النشرة الإخبارية",
+      "subtitle": "إدارة المشتركين في النشرة الإخبارية",
+      "export": "تصدير إلى Excel",
+      "refresh": "تحديث",
+      "searchPlaceholder": "البحث بالبريد الإلكتروني...",
+      "filterSource": "جميع المصادر",
+      "filterFooter": "التذييل",
+      "filterRegistration": "التسجيل",
+      "clearFilters": "مسح عوامل التصفية",
+      "columns": {
+        "email": "البريد الإلكتروني",
+        "subscribedDate": "تاريخ الاشتراك",
+        "source": "المصدر",
+        "user": "المستخدم",
+        "status": "الحالة"
+      },
+      "status": {
+        "active": "نشط",
+        "inactive": "غير نشط"
+      },
+      "empty": {
+        "title": "لم يتم العثور على اشتراكات في النشرة الإخبارية",
+        "subtitle": "جرّب تعديل معايير البحث أو عد لاحقًا للاشتراكات الجديدة."
+      },
+      "exportSuccess": "تم تصدير اشتراكات النشرة الإخبارية بنجاح",
+      "exportError": "فشل تصدير اشتراكات النشرة الإخبارية",
+      "refreshSuccess": "تم تحديث اشتراكات النشرة الإخبارية بنجاح",
+      "refreshError": "فشل تحديث اشتراكات النشرة الإخبارية"
+    }
+  },
+  "video": {
+    "metaTitle": "فيديوهات التوجيه - بصيرة العقارية",
+    "player": {
+      "play": "تشغيل",
+      "pause": "إيقاف",
+      "mute": "كتم الصوت",
+      "unmute": "إلغاء كتم الصوت",
+      "fullscreen": "ملء الشاشة",
+      "previous": "الفيديو السابق",
+      "next": "الفيديو التالي"
+    },
+    "card": {
+      "views": "{{count}} مشاهدة",
+      "views_plural": "{{count}} مشاهدة"
+    },
+    "playlist": {
+      "noVideos": "لا توجد فيديوهات في القائمة",
+      "videos": "فيديوهات",
+      "views": "{{count}} مشاهدة",
+      "views_plural": "{{count}} مشاهدة",
+      "videoOf": "الفيديو {{current}} من {{total}}",
+      "notFound": "القائمة غير موجودة",
+      "goBack": "رجوع",
+      "back": "رجوع",
+      "metaTitle": "قائمة فيديوهات"
+    },
+    "embedded": {
+      "title": "فيديوهات التوجيه",
+      "singleVideo": "فيديو واحد",
+      "multipleVideos": "{{count}} فيديو",
+      "expand": "توسيع",
+      "collapse": "طي",
+      "viewAllVideos": "عرض جميع الفيديوهات",
+      "clickToExpand": "انقر لعرض {{count}} فيديو"
+    },
+    "detail": {
+      "title": "فيديوهات التوجيه",
+      "metaTitle": "فيديوهات التوجيه",
+      "notFound": "الفيديو غير موجود",
+      "goBack": "رجوع",
+      "back": "رجوع",
+      "share": "مشاركة",
+      "shareText": "تحقق من هذا الفيديو: {{title}}",
+      "views": "{{count}} مشاهدة",
+      "views_plural": "{{count}} مشاهدة",
+      "playlistVideos": "فيديوهات القائمة",
+      "relatedVideos": "فيديوهات ذات صلة"
+    },
+    "admin": {
+      "videos": {
+        "title": "الفيديوهات",
+        "subtitle": "إدارة فيديوهات التوجيه",
+        "create": "إنشاء فيديو",
+        "edit": "تحرير الفيديو",
+        "delete": "حذف الفيديو",
+        "view": "عرض",
+        "refresh": "تحديث",
+        "cancel": "إلغاء",
+        "deleteConfirm": "حذف الفيديو",
+        "deleteMessage": "هل أنت متأكد أنك تريد حذف هذا الفيديو؟ لا يمكن التراجع عن هذا الإجراء.",
+        "searchPlaceholder": "البحث في الفيديوهات...",
+        "filterType": "تصفية حسب النوع",
+        "filterCompound": "كمبوند",
+        "filterLaunch": "إطلاق",
+        "filterProperty": "عقار",
+        "filterStatus": "جميع الحالات",
+        "columns": {
+          "title": "العنوان",
+          "type": "النوع",
+          "associated": "مرتبط بـ",
+          "duration": "المدة",
+          "views": "المشاهدات",
+          "status": "الحالة",
+          "actions": "الإجراءات"
+        },
+        "empty": {
+          "title": "لا توجد فيديوهات",
+          "subtitle": "قم بإنشاء أول فيديو توجيه"
+        },
+        "createSuccess": "تم إنشاء الفيديو بنجاح",
+        "createError": "فشل إنشاء الفيديو",
+        "updateSuccess": "تم تحديث الفيديو بنجاح",
+        "updateError": "فشل تحديث الفيديو",
+        "update": "تحديث الفيديو",
+        "saving": "جاري الحفظ...",
+        "videoRequired": "يرجى رفع فيديو",
+        "notFound": "الفيديو غير موجود",
+        "back": "رجوع إلى الفيديوهات",
+        "createDescription": "قم برفع وتكوين فيديو توجيه جديد.",
+        "editDescription": "قم بتحديث معلومات وإعدادات الفيديو.",
+        "form": {
+          "title": "العنوان",
+          "titlePlaceholder": "أدخل عنوان الفيديو",
+          "titleRequired": "العنوان مطلوب",
+          "description": "الوصف",
+          "descriptionPlaceholder": "أدخل وصف الفيديو",
+          "associatedType": "نوع الارتباط",
+          "associatedEntity": "الكيان المرتبط",
+          "selectEntity": "اختر...",
+          "entityRequired": "يرجى اختيار كيان",
+          "order": "الترتيب",
+          "featured": "مميز",
+          "active": "نشط",
+          "video": "الفيديو"
+        }
+      },
+      "playlists": {
+        "title": "قوائم الفيديوهات",
+        "subtitle": "إدارة قوائم الفيديوهات",
+        "create": "إنشاء قائمة",
+        "edit": "تحرير القائمة",
+        "delete": "حذف القائمة",
+        "searchPlaceholder": "البحث في القوائم...",
+        "filterType": "تصفية حسب النوع",
+        "filterAuto": "تلقائي",
+        "filterManual": "يدوي",
+        "columns": {
+          "title": "العنوان",
+          "type": "النوع",
+          "videos": "الفيديوهات",
+          "status": "الحالة",
+          "actions": "الإجراءات"
+        },
+        "empty": {
+          "title": "لا توجد قوائم",
+          "subtitle": "قم بإنشاء أول قائمة"
+        },
+        "createSuccess": "تم إنشاء القائمة بنجاح",
+        "createError": "فشل إنشاء القائمة",
+        "updateSuccess": "تم تحديث القائمة بنجاح",
+        "updateError": "فشل تحديث القائمة",
+        "update": "تحديث القائمة",
+        "saving": "جاري الحفظ...",
+        "cancel": "إلغاء",
+        "form": {
+          "title": "العنوان",
+          "titlePlaceholder": "أدخل عنوان القائمة",
+          "titleRequired": "العنوان مطلوب",
+          "description": "الوصف",
+          "descriptionPlaceholder": "أدخل وصف القائمة",
+          "type": "نوع القائمة",
+          "associatedType": "نوع الارتباط",
+          "associatedEntity": "الكيان المرتبط",
+          "selectType": "اختر النوع...",
+          "selectEntity": "اختر...",
+          "videos": "الفيديوهات",
+          "addVideo": "أضف فيديو إلى القائمة...",
+          "remove": "إزالة",
+          "noVideos": "لم تتم إضافة فيديوهات بعد"
+        }
+      },
+      "status": {
+        "active": "نشط",
+        "inactive": "غير نشط"
+      }
+    }
+  },
+  "propertyDetail": {
+    "watchVideo": {
+      "single": "مشاهدة الفيديو",
+      "playlist": "مشاهدة الفيديوهات"
+    }
+  },
+  "leadPage": {
+    "metaTitle": "تواصل مع مستشاري بصيرة | نموذج العملاء",
+    "metaDescription": "شارك أهدافك العقارية ودع فريق بصيرة يجهز لك قائمة مختارة من الفرص والطروحات في مصر.",
+    "hero": {
+      "badge": "استشارة مخصصة",
+      "title": "خطط لحركتك العقارية التالية مع بصيرة",
+      "subtitle": "أخبرنا عن أهدافك، ميزانيتك، والإطار الزمني المفضل لديك ليصلك تقرير واضح يشمل العقارات المناسبة، خطط الدفع، وخيارات التمويل.",
+      "primaryCta": "ابدأ الطلب",
+      "secondaryCta": "اتصل بالمستشار",
+      "secondaryCtaPhone": "+201009990000",
+      "highlightTitle": "نبدأ بفهم احتياجاتك",
+      "highlightSubtitle": "يتم مراجعة كل نموذج يدويًا خلال يوم عمل واحد.",
+      "highlights": [
+        {
+          "title": "جلسة استكشاف بشرية",
+          "description": "نرسم أهدافك وحدود المخاطرة قبل اقتراح أي فرصة."
+        },
+        {
+          "title": "تحليل مدعوم بالبيانات",
+          "description": "مقارنات بين الطروحات، خطط الدفع، وعوائد الإيجار."
+        },
+        {
+          "title": "خطة تنفيذ واضحة",
+          "description": "من الجولات الميدانية حتى التوقيع نتواجد بجانبك."
+        }
+      ]
+    },
+    "stats": [
+      {
+        "label": "عملاء جرى توجيههم",
+        "value": "6,500+",
+        "description": "بين الطروحات والبيع الثانوي"
+      },
+      {
+        "label": "مشروعات نتابعها",
+        "value": "180+",
+        "description": "مطورون ومجتمعات في مصر"
+      },
+      {
+        "label": "متوسط الاستجابة",
+        "value": "< 6 ساعات",
+        "description": "فريق مخصص للمتابعة"
+      }
+    ],
+    "benefits": {
+      "badge": "لماذا بصيرة",
+      "title": "نحوّل طموحك إلى خطة عقارية",
+      "subtitle": "ذكاء سوقي لحظي وخدمة مرافقة في كل خطوة.",
+      "items": [
+        {
+          "eyebrow": "تحليل",
+          "title": "توصيات موثّقة بالبيانات",
+          "description": "نختبر كل فرصة مقابل تاريخ التسليم، خطط الدفع، ونماذج العائد.",
+          "bullets": [
+            "مطابقة مع جداول الطرح وسجل المطور",
+            "شفافية في العائد المتوقع واستراتيجيات الخروج"
+          ]
+        },
+        {
+          "eyebrow": "اختيار",
+          "title": "فرص لا تظهر في البحث العادي",
+          "description": "وصول مبكر للطروحات وقوائم إعادة البيع الموثّقة.",
+          "bullets": [
+            "حجوزات أولوية في الطروحات المميزة",
+            "عقارات إعادة بيع بمستندات مراجعة"
+          ]
+        },
+        {
+          "eyebrow": "تنفيذ",
+          "title": "مستشار يبقى معك",
+          "description": "متابعة قانونية، تذكير بالدفعات، ودعم بعد التسليم.",
+          "bullets": [
+            "نقطة تواصل واحدة طوال الدورة",
+            "روابط للتمويل والشركاء المساندين"
+          ]
+        }
+      ]
+    },
+    "process": {
+      "badge": "كيف نعمل",
+      "title": "مسار واضح من الطلب إلى الإقفال",
+      "subtitle": "ثلاث خطوات بسيطة للوصول إلى استثمار واثق.",
+      "steps": [
+        {
+          "title": "شاركنا موجزك",
+          "description": "اذكر أهدافك، المناطق المفضلة، والميزانية التقريبية."
+        },
+        {
+          "title": "استلم ملف الترشيحات",
+          "description": "نرسل لك تقريرًا مقارنًا بالأرقام والتوصيات التالية."
+        },
+        {
+          "title": "نفّذ بثقة",
+          "description": "ننسّق الجولات، الحجوزات، والأوراق معك خطوة بخطوة."
+        }
+      ]
+    },
+    "form": {
+      "badge": "ابدأ المطابقة",
+      "title": "أخبرنا بخطتك لنجهّز القائمة المناسبة",
+      "subtitle": "املأ النموذج وسيعاودك مستشار من بصيرة خلال يوم عمل."
+    },
+    "support": {
+      "badge": "تحتاج إجابة فورية؟",
+      "title": "تواصل مباشرة مع فريق الاستشارات",
+      "subtitle": "يمكنك أيضًا مراسلتنا عبر البريد وسنرد خلال ساعات العمل.",
+      "primaryCta": "أرسل الطلب",
+      "secondaryCta": "راسل الفريق",
+      "secondaryCtaEmail": "hello@basira.com"
+    }
+  },
+  "legal": {
+    "metaTitle": "المعلومات القانونية - سياسة الخصوصية وشروط الخدمة وسياسة ملفات تعريف الارتباط | بصيره العقارية",
+    "metaDescription": "اقرأ سياسة الخصوصية وشروط الخدمة وسياسة ملفات تعريف الارتباط الخاصة بنا. افهم كيف نتعامل مع بياناتك وشروط استخدام خدماتنا.",
+    "hero": {
+      "badge": "المعلومات القانونية",
+      "title": "الخصوصية والشروط والسياسات",
+      "subtitle": "الشفافية والثقة في صميم التزامنا تجاهك. راجع سياساتنا لفهم كيفية حماية بياناتك وتنظيم خدماتنا."
+    },
+    "tableOfContents": {
+      "title": "جدول المحتويات",
+      "privacyPolicy": "سياسة الخصوصية",
+      "termsOfService": "شروط الخدمة",
+      "cookiePolicy": "سياسة ملفات تعريف الارتباط"
+    },
+    "lastUpdated": "آخر تحديث",
+    "privacyPolicy": {
+      "title": "سياسة الخصوصية",
+      "sections": {
+        "introduction": {
+          "title": "مقدمة",
+          "content": "في بصيره العقارية، نحن ملتزمون بحماية خصوصيتك وضمان أمان معلوماتك الشخصية. توضح سياسة الخصوصية هذه كيف نجمع ونستخدم ونكشف ونحمي بياناتك عند استخدام موقعنا الإلكتروني وخدماتنا. من خلال الوصول إلى منصتنا أو استخدامها، فإنك توافق على الممارسات الموضحة في هذه السياسة."
+        },
+        "dataCollection": {
+          "title": "المعلومات التي نجمعها",
+          "content": [
+            "المعلومات الشخصية: الاسم وعنوان البريد الإلكتروني ورقم الهاتف وتفاصيل الاتصال الأخرى المقدمة أثناء التسجيل أو الاستفسارات",
+            "تفضيلات العقارات: معايير البحث ونطاق الميزانية والمواقع المفضلة ومتطلبات العقار",
+            "بيانات الاستخدام: الصفحات التي تمت زيارتها والوقت المستغرق على الموقع وأنماط النقر وسجل التنقل",
+            "معلومات الجهاز: عنوان IP ونوع المتصفح ومعرفات الجهاز ونظام التشغيل",
+            "سجلات الاتصال: الرسائل المرسلة عبر منصتنا وسجل الاستفسارات وتفاعلات خدمة العملاء",
+            "معلومات الدفع: عند الاقتضاء، قد نعالج بيانات الدفع عبر معالجات الدفع الآمنة من جهات خارجية"
+          ]
+        },
+        "dataUsage": {
+          "title": "كيف نستخدم معلوماتك",
+          "content": [
+            "توفير وتحسين خدماتنا العقارية ووظائف المنصة",
+            "تطابقك مع العقارات ذات الصلة بناءً على تفضيلاتك ومتطلباتك",
+            "التواصل معك حول قوائم العقارات والاستفسارات وتحديثات الخدمة",
+            "إرسال النشرات الإخبارية وبيانات السوق والمواد الترويجية (بموافقتك)",
+            "معالجة المعاملات وإدارة حسابك",
+            "الرد على استفساراتك وتقديم دعم العملاء",
+            "تحليل أنماط الاستخدام لتحسين تجربة المستخدم وأداء المنصة",
+            "الامتثال للالتزامات القانونية ومنع الأنشطة الاحتيالية"
+          ]
+        },
+        "dataSharing": {
+          "title": "مشاركة المعلومات والكشف عنها",
+          "content": "نحن لا نبيع معلوماتك الشخصية. قد نشارك بياناتك مع أطراف ثالثة موثوقة فقط في الحالات التالية: مطورو العقارات والوكلاء (عندما تعبر عن اهتمامك بعقار)، مقدمي الخدمات الذين يساعدون في عملياتنا (معالجات الدفع والاستضافة السحابية والتحليلات)، السلطات القانونية عندما يتطلب القانون ذلك، ونقل الأعمال في حالة الاندماج أو الاستحواذ. يجب على جميع الأطراف الثالثة الحفاظ على سرية وأمان معلوماتك."
+        },
+        "security": {
+          "title": "أمان البيانات",
+          "content": "نطبق تدابير أمنية قياسية في الصناعة لحماية معلوماتك الشخصية، بما في ذلك التشفير والخوادم الآمنة وضوابط الوصول والتقييمات الأمنية المنتظمة. ومع ذلك، لا توجد طريقة نقل عبر الإنترنت آمنة بنسبة 100%، ولا يمكننا ضمان الأمان المطلق."
+        },
+        "userRights": {
+          "title": "حقوقك وخياراتك",
+          "content": [
+            "الوصول: طلب نسخة من بياناتك الشخصية التي نحتفظ بها",
+            "التصحيح: تحديث أو تصحيح المعلومات غير الدقيقة",
+            "الحذف: طلب إزالة بياناتك الشخصية (مع مراعاة المتطلبات القانونية)",
+            "إلغاء الاشتراك: إلغاء الاشتراك في الاتصالات التسويقية في أي وقت",
+            "قابلية نقل البيانات: طلب بياناتك بتنسيق منظم وقابل للقراءة آليًا",
+            "القيود: طلب تحديد كيفية معالجة بياناتك",
+            "سحب الموافقة: إلغاء الموافقة على معالجة البيانات حيثما ينطبق ذلك"
+          ]
+        },
+        "retention": {
+          "title": "الاحتفاظ بالبيانات",
+          "content": "نحتفظ بمعلوماتك الشخصية فقط لأطول فترة ضرورية لتحقيق الأغراض الموضحة في هذه السياسة والامتثال للالتزامات القانونية وحل النزاعات وإنفاذ اتفاقياتنا. عندما لم تعد البيانات مطلوبة، نقوم بحذفها أو إخفاء هويتها بشكل آمن."
+        },
+        "changes": {
+          "title": "التغييرات على هذه السياسة",
+          "content": "قد نحدث سياسة الخصوصية هذه بشكل دوري لتعكس التغييرات في ممارساتنا أو المتطلبات القانونية. سنخطرك بالتغييرات المهمة عن طريق نشر السياسة المحدثة على موقعنا الإلكتروني وتحديث تاريخ 'آخر تحديث'. استمرارك في استخدام خدماتنا بعد هذه التغييرات يعني قبول السياسة المحدثة."
+        },
+        "contact": {
+          "title": "اتصل بنا",
+          "content": "إذا كانت لديك أسئلة أو مخاوف أو طلبات فيما يتعلق بهذه سياسة الخصوصية أو بياناتك الشخصية، يرجى الاتصال بنا على privacy@basera-realestate.com أو من خلال صفحة الاتصال الخاصة بنا."
+        }
+      }
+    },
+    "termsOfService": {
+      "title": "شروط الخدمة",
+      "sections": {
+        "agreement": {
+          "title": "الموافقة على الشروط",
+          "content": "من خلال الوصول إلى موقع بصيره العقارية وخدماته أو استخدامها، فإنك توافق على الالتزام بشروط الخدمة هذه وجميع القوانين واللوائح المعمول بها. إذا كنت لا توافق على أي من هذه الشروط، فأنت ممنوع من استخدام أو الوصول إلى هذه المنصة."
+        },
+        "services": {
+          "title": "خدماتنا",
+          "content": "توفر بصيره العقارية منصة رقمية للتصفح والبحث والاستفسار عن العقارات في مصر. نوصل المستخدمين بقوائم العقارات والمطورين والمهنيين العقاريين. نحن نعمل كمنصة وسيطة ولا نضمن دقة أو توفر أو حالة العقارات المدرجة."
+        },
+        "userAccounts": {
+          "title": "حسابات المستخدمين",
+          "content": [
+            "يجب عليك تقديم معلومات دقيقة وكاملة عند إنشاء حساب",
+            "أنت مسؤول عن الحفاظ على سرية بيانات اعتماد حسابك",
+            "يجب عليك إخطارنا على الفور بأي وصول غير مصرح به إلى حسابك",
+            "أنت مسؤول عن جميع الأنشطة التي تحدث تحت حسابك",
+            "نحتفظ بالحق في تعليق أو إنهاء الحسابات التي تنتهك هذه الشروط"
+          ]
+        },
+        "propertyListings": {
+          "title": "قوائم العقارات",
+          "content": "معلومات العقار والصور والأسعار والتوفر مقدمة من أطراف ثالثة (مطورون ووكلاء وأصحاب عقارات) وقابلة للتغيير دون إشعار. نبذل جهودًا معقولة لضمان الدقة ولكننا لا نضمن اكتمال أو موثوقية معلومات العقار. الأسعار والمواصفات والتوفر تخضع للتحقق وقد تختلف."
+        },
+        "userConduct": {
+          "title": "الاستخدام المقبول",
+          "content": [
+            "استخدم منصتنا فقط لأغراض قانونية وفقًا لهذه الشروط",
+            "لا تنشر معلومات كاذبة أو مضللة أو احتيالية",
+            "لا تحاول الوصول غير المصرح به إلى أنظمتنا أو بياناتنا",
+            "لا تستخدم الأنظمة الآلية لاستخراج البيانات أو جمعها بدون إذن",
+            "لا تتدخل أو تعطل وظائف المنصة",
+            "احترم حقوق الملكية الفكرية ولا تنتهك حقوق النشر أو العلامات التجارية",
+            "لا تستخدم المنصة لنقل الفيروسات أو البرمجيات الخبيثة أو الكود الضار"
+          ]
+        },
+        "intellectualProperty": {
+          "title": "الملكية الفكرية",
+          "content": "جميع المحتويات على هذه المنصة، بما في ذلك النصوص والرسومات والشعارات والصور والبرامج والتصاميم، هي ملكية لبصيره العقارية أو المرخصين لها ومحمية بقوانين حقوق النشر والملكية الفكرية الأخرى. لا يجوز لك نسخ أو توزيع أو تعديل أو إنشاء أعمال مشتقة دون إذننا الخطي الصريح."
+        },
+        "liability": {
+          "title": "تقييد المسؤولية",
+          "content": "بأقصى ما يسمح به القانون، لن تكون بصيره العقارية والشركات التابعة لها مسؤولة عن أي أضرار غير مباشرة أو عرضية أو خاصة أو تبعية أو عقابية، بما في ذلك فقدان الأرباح أو البيانات أو الفرص التجارية، الناشئة عن استخدامك لخدماتنا. لن تتجاوز مسؤوليتنا الإجمالية المبلغ الذي دفعه لنا، إن وجد، في الأشهر الـ 12 السابقة للمطالبة."
+        },
+        "termination": {
+          "title": "إنهاء الخدمة",
+          "content": "نحتفظ بالحق في تعليق أو تقييد أو إنهاء وصولك إلى منصتنا في أي وقت، مع أو بدون سبب أو إشعار، لأي سبب بما في ذلك انتهاك هذه الشروط أو النشاط الاحتيالي أو المتطلبات القانونية. عند الإنهاء، سيتوقف حقك في استخدام المنصة فورًا."
+        },
+        "modifications": {
+          "title": "تعديلات الشروط",
+          "content": "نحتفظ بالحق في تعديل شروط الخدمة هذه في أي وقت. سيتم إبلاغ التغييرات المهمة من خلال منصتنا أو عبر البريد الإلكتروني. استمرارك في استخدام خدماتنا بعد أن تصبح التغييرات فعالة يعني قبول الشروط المعدلة."
+        },
+        "governingLaw": {
+          "title": "القانون الحاكم",
+          "content": "تخضع شروط الخدمة هذه ويتم تفسيرها وفقًا لقوانين مصر. أي نزاعات تنشأ من هذه الشروط أو استخدامك لخدماتنا تخضع للاختصاص الحصري لمحاكم مصر."
+        }
+      }
+    },
+    "cookiePolicy": {
+      "title": "سياسة ملفات تعريف الارتباط",
+      "sections": {
+        "introduction": {
+          "title": "ما هي ملفات تعريف الارتباط",
+          "content": "ملفات تعريف الارتباط هي ملفات نصية صغيرة يتم وضعها على جهازك عند زيارة موقعنا الإلكتروني. تساعدنا في توفير تجربة أفضل لك وتحليل استخدام الموقع وتخصيص المحتوى. توضح سياسة ملفات تعريف الارتباط هذه كيف تستخدم بصيره العقارية ملفات تعريف الارتباط والتقنيات المماثلة على منصتنا."
+        },
+        "cookieTypes": {
+          "title": "أنواع ملفات تعريف الارتباط التي نستخدمها",
+          "content": [
+            "ملفات تعريف الارتباط الأساسية: مطلوبة لكي يعمل الموقع بشكل صحيح. تمكن هذه الوظائف الأساسية مثل الأمان وإدارة الشبكة وإمكانية الوصول. لا يمكن تعطيلها.",
+            "ملفات تعريف الارتباط التحليلية: تساعدنا في فهم كيفية تفاعل الزوار مع موقعنا من خلال جمع معلومات مجهولة حول الصفحات التي تمت زيارتها والوقت المستغرق ومسارات المستخدم. نستخدم هذه البيانات لتحسين منصتنا.",
+            "ملفات تعريف الارتباط الوظيفية: تتذكر تفضيلاتك وإعداداتك (اللغة والموقع ومرشحات البحث) لتوفير تجربة مخصصة أثناء زيارتك وعند العودة.",
+            "ملفات تعريف الارتباط المستهدفة: تُستخدم لتقديم إعلانات ذات صلة وتتبع فعالية الحملة. قد يتم تعيين هذه من قبل شركاء الإعلان وهي تخضع لسياسات الخصوصية الخاصة بهم."
+          ]
+        },
+        "purpose": {
+          "title": "الغرض من ملفات تعريف الارتباط",
+          "content": [
+            "تمكين الوظائف الأساسية للموقع وميزات الأمان",
+            "تذكر تفضيلاتك وإعداداتك لتجربة مخصصة",
+            "تحليل حركة مرور الموقع وسلوك المستخدم لتحسين خدماتنا",
+            "تتبع فعالية حملاتنا التسويقية",
+            "توفير توصيات عقارية ذات صلة بناءً على اهتماماتك",
+            "دعم تكامل وسائل التواصل الاجتماعي وميزات المشاركة"
+          ]
+        },
+        "thirdParty": {
+          "title": "ملفات تعريف الارتباط من الأطراف الثالثة",
+          "content": "قد نستخدم خدمات من مقدمي خدمات خارجيين يضعون ملفات تعريف الارتباط الخاصة بهم، بما في ذلك Google Analytics لتحليلات الموقع ومنصات وسائل التواصل الاجتماعي لميزات المشاركة وشبكات الإعلان للإعلانات ذات الصلة. لدى هؤلاء الأطراف الثالثة سياسات خصوصية خاصة بهم تحكم استخدام ملفات تعريف الارتباط."
+        },
+        "managing": {
+          "title": "إدارة ملفات تعريف الارتباط",
+          "content": "لديك الحق في قبول أو رفض ملفات تعريف الارتباط. تقبل معظم متصفحات الويب ملفات تعريف الارتباط تلقائيًا، ولكن يمكنك تعديل إعدادات المتصفح لرفض ملفات تعريف الارتباط إذا كنت تفضل ذلك. ومع ذلك، قد يؤثر تعطيل ملفات تعريف الارتباط المعينة على تجربتك ويحد من بعض وظائف موقعنا الإلكتروني."
+        },
+        "browserSettings": {
+          "title": "إعدادات ملفات تعريف الارتباط للمتصفح",
+          "content": "لإدارة ملفات تعريف الارتباط في متصفحك: Chrome - الإعدادات > الخصوصية والأمان > ملفات تعريف الارتباط، Firefox - الخيارات > الخصوصية والأمان > ملفات تعريف الارتباط، Safari - التفضيلات > الخصوصية > ملفات تعريف الارتباط، Edge - الإعدادات > الخصوصية > ملفات تعريف الارتباط. يرجى ملاحظة أن حظر جميع ملفات تعريف الارتباط قد يؤثر على وظائف الموقع."
+        },
+        "updates": {
+          "title": "تحديثات سياسة ملفات تعريف الارتباط",
+          "content": "قد نحدث سياسة ملفات تعريف الارتباط هذه من وقت لآخر لتعكس التغييرات في التكنولوجيا أو التشريعات أو ممارساتنا. سيتم نشر السياسة المحدثة على هذه الصفحة مع تاريخ 'آخر تحديث' المنقح. نشجعك على مراجعة هذه السياسة بشكل دوري."
+        }
+      }
+    }
+  }
+}
+

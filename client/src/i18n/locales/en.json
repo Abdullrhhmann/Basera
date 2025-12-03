@@ -1,0 +1,1834 @@
+{
+  "language": {
+    "english": "English",
+    "arabic": "Arabic",
+    "switchToEnglish": "Switch to English",
+    "switchToArabic": "Switch to Arabic"
+  },
+  "propertyDetail": {
+    "metaTitle": "{{title}} - basera Real Estate",
+    "metaDescriptionFallback": "Discover detailed information about this property.",
+    "titleFallback": "Property",
+    "locationUnknown": "Location not available",
+    "loading": {
+      "message": "Loading property details..."
+    },
+    "errors": {
+      "notFound": "Property not found",
+      "id": "ID: {{id}}",
+      "message": "Error: {{message}}",
+      "noMessage": "No error message",
+      "back": "Back to Properties"
+    },
+    "share": {
+      "fallback": "Check out this property",
+      "title": "Property"
+    },
+    "price": {
+      "label": "{{value}} {{currency}}",
+      "onRequest": "Price on request"
+    },
+    "status": {
+      "available": "Available",
+      "for-sale": "For sale",
+      "for-rent": "For rent",
+      "sold": "Sold",
+      "sold-out": "Sold out",
+      "pre-launch": "Pre-launch",
+      "coming-soon": "Coming soon"
+    },
+    "gallery": {
+      "hero": "Hero",
+      "noImages": "No images available"
+    },
+    "floorPlan": {
+      "view": "View Floor Plan",
+      "unavailable": "Floor plan not available"
+    },
+    "masterPlan": {
+      "view": "View Master Plan",
+      "unavailable": "Master plan not available"
+    },
+    "watchVideo": {
+      "single": "Watch Video",
+      "playlist": "Watch Videos"
+    },
+    "developer": {
+      "heading": "Developer Information",
+      "status": "Development Status",
+      "label": "Developer",
+      "viewAll": "View all properties"
+    },
+    "compound": {
+      "heading": "Compound Overview",
+      "developer": "Developed by {{developer}}",
+      "launchDate": "Launch",
+      "handoverDate": "Handover",
+      "overviewBadge": "Compound Overview",
+      "overviewDescription": "This card highlights the entire compound and its key milestones.",
+      "linkedDescription": "This property is part of the compound highlighted above.",
+      "noHero": "No compound image available yet."
+    },
+    "specs": {
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "areaUnit": "m²",
+      "parking": "Parking"
+    },
+    "description": {
+      "heading": "Description",
+      "empty": "No description available."
+    },
+    "features": {
+      "heading": "Features"
+    },
+    "investment": {
+      "heading": "Investment Details",
+      "expectedROI": "Expected ROI",
+      "rentalYield": "Rental Yield",
+      "pricePerSqm": "Price per {{unit}}",
+      "pricePerSqmFallback": "Price per square meter"
+    },
+    "location": {
+      "heading": "Location"
+    },
+    "inquiry": {
+      "heading": "Interested in this property?",
+      "cta": "Send Inquiry",
+      "ctaLogin": "Send Inquiry (Login Required)",
+      "call": "Call Now",
+      "email": "Email Agent",
+      "loggedIn": "Logged in as: {{name}} ({{email}})",
+      "loggedInNote": "Your information will be automatically filled in the inquiry.",
+      "guest": "Not logged in: Please fill in your contact information below.",
+      "loginPrompt": "Login here",
+      "loginNote": "to auto-fill your information.",
+      "labels": {
+        "name": "Your Name",
+        "email": "Email Address",
+        "phone": "Phone Number (e.g., +1234567890)",
+        "message": "Your message... (minimum 10 characters)"
+      },
+      "buttons": {
+        "submit": "Send Inquiry",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email",
+        "phoneRequired": "Phone number is required",
+        "phoneInvalid": "Please enter a valid phone number (e.g., +1234567890)",
+        "messageRequired": "Message is required",
+        "messageMin": "Message must be at least 10 characters long",
+        "messageMax": "Message cannot exceed 1000 characters"
+      },
+      "successTitle": "Inquiry submitted successfully!",
+      "successSubtitle": "We'll contact you soon.",
+      "errorTitle": "Failed to submit inquiry"
+    },
+    "contact": {
+      "loginRequiredTitle": "Login required",
+      "loginRequiredMessage": "Please log in to contact the agent",
+      "emailSubject": "Inquiry about {{title}}",
+      "emailBody": "Hello,\n\nI am interested in the property: {{title}}\n\nPlease contact me for more information.\n\nThank you."
+    },
+    "agent": {
+      "heading": "Property Agent",
+      "contact": "Contact Agent",
+      "emailFallback": "agent@basera.com",
+      "nameFallback": "Agent"
+    }
+  },
+  "notFound": {
+    "metaTitle": "404 - Page Not Found | basera Real Estate",
+    "metaDescription": "The page you're looking for doesn't exist. Continue exploring luxury properties with basera Real Estate.",
+    "hero": {
+      "title": "Oops! Page Not Found",
+      "subtitle": "The page you requested has drifted into the digital void. Our curated properties and expert advisors are still only a click away."
+    },
+    "actions": {
+      "home": "Go Home",
+      "browse": "Browse Properties"
+    },
+    "links": {
+      "about": "About Us",
+      "developers": "Developers",
+      "launches": "Launches",
+      "contact": "Contact"
+    },
+    "backButton": "Go Back"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "all": "All",
+    "actions": {
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "goBack": "Go Back",
+      "goHome": "Go Home"
+    },
+    "confirmation": {
+      "title": "Confirm Action",
+      "message": "Are you sure you want to continue?"
+    }
+  },
+  "navigation": {
+    "careers": "Careers",
+    "home": "Home",
+    "about": "About Us",
+    "properties": "Properties",
+    "developers": "Developers",
+    "compounds": "Compounds",
+    "ourDevelopments": "Our Developments",
+    "launches": "Launches",
+    "blog": "Blog",
+    "videos": "Videos",
+    "contact": "Contact Us",
+    "leadForm": "Lead Form",
+    "submitProperty": "List Property",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "register": "Register",
+    "profile": "Profile",
+    "logout": "Logout",
+    "loading": "Loading page...",
+    "roiCalculator": "ROI Calculator",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "stayUpdated": "Stay Updated",
+    "newsletterCta": "Subscribe to our newsletter for the latest property updates, market insights, and exclusive offers.",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing...",
+    "newsletter": {
+      "success": "Successfully subscribed to newsletter!",
+      "errors": {
+        "emailRequired": "Please enter your email address",
+        "invalidEmail": "Please enter a valid email address",
+        "subscriptionFailed": "Failed to subscribe. Please try again."
+      }
+    },
+    "rights": "All rights reserved.",
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
+    "legal": "Legal",
+    "admin": "Admin",
+    "location": "Cairo, Egypt",
+    "emailPlaceholder": "Enter your email",
+    "links": {
+      "ourTeam": "Our Team",
+      "careers": "Careers",
+      "contact": "Contact",
+      "buyProperty": "Buy Property",
+      "sellProperty": "Sell Property",
+      "rentProperty": "Rent Property",
+      "propertyManagement": "Property Management",
+      "propertyGuide": "Property Guide",
+      "investmentCalculator": "Investment Calculator",
+      "marketReports": "Market Reports",
+      "privacyPolicy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "disclaimer": "Disclaimer"
+    },
+    "copyright": "© {{year}} basera Real Estate. All rights reserved."
+  },
+  "map": {
+    "loading": "Loading map...",
+    "errors": {
+      "unavailable": "Map Unavailable",
+      "unavailableDescription": "Unable to load the map. Please check your internet connection.",
+      "noCoordinates": {
+        "title": "Location Not Available",
+        "description": "Map coordinates are not available for this property."
+      },
+      "geolocationUnsupported": "Geolocation is not supported by your browser.",
+      "geolocationFailed": "Unable to get your current location."
+    },
+    "actions": {
+      "retry": "Try Again",
+      "directions": "Directions",
+      "useCurrentLocation": "Use Current Location",
+      "myLocation": "My Location",
+      "gettingLocation": "Getting..."
+    },
+    "header": {
+      "title": "Property Location",
+      "subtitle": "Interactive map view"
+    },
+    "tooltips": {
+      "directions": "Get Directions",
+      "openInGoogle": "Open in Google Maps",
+      "openInOSM": "Open in OpenStreetMap",
+      "useCurrentLocation": "Use Current Location"
+    },
+    "footer": {
+      "poweredGoogle": "Powered by Google Maps",
+      "poweredOSM": "Powered by OpenStreetMap"
+    }
+  },
+  "protected": {
+    "loading": "Checking permissions...",
+    "accessDenied": {
+      "title": "Access Denied",
+      "message": "You don’t have permission to access this page. This area is restricted to authorized roles only."
+    }
+  },
+  "home": {
+    "metaTitle": "Basera Real Estate - Find Your Dream Property",
+    "metaDescription": "Discover premium real estate properties with Basera - Your trusted partner in finding the perfect home.",
+    "hero": {
+      "title": "Find Your Dream Property in Egypt"
+    },
+    "search": {
+      "title": "Your Property Search",
+      "subtitle": "Adjust the filters to surface residences that align with your lifestyle or investment mandate.",
+      "locationLabel": "Location",
+      "locationPlaceholder": "City or community",
+      "typeLabel": "Property Type",
+      "statusLabel": "Status",
+      "minPriceLabel": "Minimum Price",
+      "maxPriceLabel": "Maximum Price",
+      "filterButton": "Filter Options",
+      "searchButton": "Search Properties",
+      "resetButton": "Reset Filters",
+      "propertiesAvailable": "{{count}} properties available",
+      "invalidPriceTitle": "Invalid Price Range",
+      "invalidPriceMessage": "Minimum price should not exceed maximum price.",
+      "priceOptions": {
+        "any": "Any",
+        "egp1m": "EGP 1M",
+        "egp2_5m": "EGP 2.5M",
+        "egp5m": "EGP 5M",
+        "egp10m": "EGP 10M",
+        "egp15m": "EGP 15M",
+        "egp25m": "EGP 25M"
+      },
+      "maxPriceOption": "{{price}}+"
+    },
+    "statusOptions": {
+      "any": "Any Status",
+      "forSale": "For Sale",
+      "forRent": "For Rent"
+    },
+    "hero": {
+      "title": "Find Your Dream Property in Egypt",
+      "cta": "View Properties"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "whatsapp": "WhatsApp",
+      "whatsappDefaultMessage": "Hello! I'm interested in your properties."
+    },
+    "kinetic": {
+      "rows": {
+        "focus": "INSIGHT",
+        "presence": "DETAIL",
+        "feel": "TRUST"
+      },
+      "typeLines": [
+        "INSIGHT INSIGHT INSIGHT",
+        "DETAIL DETAIL DETAIL",
+        "TRUST TRUST TRUST",
+        "INSIGHT INSIGHT INSIGHT",
+        "DETAIL DETAIL DETAIL",
+        "INSIGHT INSIGHT INSIGHT",
+        "INSIGHT INSIGHT INSIGHT",
+        "DETAIL DETAIL DETAIL",
+        "TRUST TRUST TRUST",
+        "INSIGHT INSIGHT INSIGHT",
+        "DETAIL DETAIL DETAIL",
+        "INSIGHT INSIGHT INSIGHT"
+      ],
+      "background": {
+        "be": "INSIGHT",
+        "present": "IN",
+        "listen": "EVERY",
+        "deeply": "DETAIL",
+        "observe": "MARKET",
+        "ampersand": "•",
+        "feel": "TRUST",
+        "make": "DATA",
+        "better": "LED",
+        "decisions": "DECISIONS",
+        "the": "EXPERT",
+        "creative": "GUIDANCE",
+        "process": "STRATEGY",
+        "is": "WITH",
+        "mysterious": "BASERA",
+        "simplicity_s": "INSIGHT",
+        "simplicity_i1": "IN",
+        "simplicity_m": "EVERY",
+        "simplicity_p": "DETAIL",
+        "simplicity_l": "INSIGHT",
+        "simplicity_i2": "IN",
+        "simplicity_c": "EVERY",
+        "simplicity_i3": "DETAIL",
+        "simplicity_t": "INSIGHT",
+        "simplicity_y": "IN",
+        "isTheKey": "INSIGHT IN EVERY DETAIL",
+        "findYourVoice": "CURATED EXPERTISE",
+        "trustIntuition": "TRUSTED ADVISORS",
+        "embraceSilence": "CLEAR GUIDANCE",
+        "questionEverything": "ASK WITH CONFIDENCE",
+        "truth": "TRANSPARENCY",
+        "wisdom": "STRATEGY",
+        "focus": "INSIGHT",
+        "attention": "PRECISION",
+        "awareness": "ANALYTICS",
+        "presence": "SUPPORT",
+        "simplify": "SIMPLIFY",
+        "refine": "ELEVATE"
+      },
+      "alternatives": {
+        "focus": {
+          "be": "DEEPER INSIGHT",
+          "present": "REVEALS",
+          "listen": "EVERY",
+          "deeply": "PATTERN",
+          "observe": "MARKET",
+          "ampersand": "×",
+          "feel": "TRUST",
+          "make": "DATA",
+          "better": "GUIDED",
+          "decisions": "CHOICES",
+          "the": "SMART",
+          "creative": "INVESTMENT",
+          "process": "STRATEGY",
+          "is": "WITH",
+          "mysterious": "BASERA",
+          "simplicity_s": "INSIGHT",
+          "simplicity_i1": "IN",
+          "simplicity_m": "EVERY",
+          "simplicity_p": "DETAIL",
+          "simplicity_l": "INSIGHT",
+          "simplicity_i2": "IN",
+          "simplicity_c": "EVERY",
+          "simplicity_i3": "DETAIL",
+          "simplicity_t": "INSIGHT",
+          "simplicity_y": "IN",
+          "isTheKey": "UNLOCKS CLARITY",
+          "findYourVoice": "DEFINE YOUR VISION",
+          "trustIntuition": "TRUST THE DATA",
+          "embraceSilence": "SEE THE SIGNAL",
+          "questionEverything": "EXPLORE ANSWERS",
+          "truth": "INSIGHT",
+          "wisdom": "GUIDANCE",
+          "focus": "FOCUS",
+          "attention": "PRECISION",
+          "awareness": "UNDERSTANDING",
+          "presence": "SUPPORT",
+          "simplify": "STREAMLINE",
+          "refine": "OPTIMIZE"
+        },
+        "presence": {
+          "be": "PINPOINT",
+          "present": "EVERY",
+          "listen": "DETAIL",
+          "deeply": "MEASURED",
+          "observe": "INSIGHTS",
+          "ampersand": "→",
+          "feel": "ASSURED",
+          "make": "STRUCTURED",
+          "better": "WORKFLOWS",
+          "decisions": "SYSTEMS",
+          "the": "TAILORED",
+          "creative": "REPORTING",
+          "process": "OPERATIONS",
+          "is": "FOR",
+          "mysterious": "YOUR TEAM",
+          "simplicity_s": "DETAIL",
+          "simplicity_i1": "IN",
+          "simplicity_m": "EVERY",
+          "simplicity_p": "METRIC",
+          "simplicity_l": "DETAIL",
+          "simplicity_i2": "IN",
+          "simplicity_c": "EVERY",
+          "simplicity_i3": "REVIEW",
+          "simplicity_t": "DETAIL",
+          "simplicity_y": "IN",
+          "isTheKey": "DELIVERS CONFIDENCE",
+          "findYourVoice": "TAILOR EXPERIENCES",
+          "trustIntuition": "RELY ON EVIDENCE",
+          "embraceSilence": "READ THE SIGNALS",
+          "questionEverything": "VERIFY EVERY STEP",
+          "truth": "CLARITY",
+          "wisdom": "KNOWLEDGE",
+          "focus": "DETAIL",
+          "attention": "ACCURACY",
+          "awareness": "VISIBILITY",
+          "presence": "SUPPORT",
+          "simplify": "SYSTEMIZE",
+          "refine": "POLISH"
+        },
+        "feel": {
+          "be": "BUILD TRUST",
+          "present": "WITH",
+          "listen": "EVERY",
+          "deeply": "PROMISE",
+          "observe": "DELIVERED",
+          "ampersand": "=",
+          "feel": "ASSURE",
+          "make": "RELATIONSHIPS",
+          "better": "STRONGER",
+          "decisions": "PARTNERSHIPS",
+          "the": "CLIENT",
+          "creative": "EXPERIENCE",
+          "process": "WE",
+          "is": "PROTECT",
+          "mysterious": "YOUR INVESTMENT",
+          "simplicity_s": "TRUST",
+          "simplicity_i1": "WITH",
+          "simplicity_m": "EVERY",
+          "simplicity_p": "DETAIL",
+          "simplicity_l": "TRUST",
+          "simplicity_i2": "WITH",
+          "simplicity_c": "EVERY",
+          "simplicity_i3": "DETAIL",
+          "simplicity_t": "TRUST",
+          "simplicity_y": "WITH",
+          "isTheKey": "PROMISE KEPT",
+          "findYourVoice": "HEAR YOUR NEEDS",
+          "trustIntuition": "TRUST THE ADVICE",
+          "embraceSilence": "FEEL THE CALM",
+          "questionEverything": "WE ANSWER",
+          "truth": "LOYALTY",
+          "wisdom": "STEWARDSHIP",
+          "focus": "TRUST",
+          "attention": "CARE",
+          "awareness": "SERVICE",
+          "presence": "ALWAYS HERE",
+          "simplify": "RELAX",
+          "refine": "NURTURE"
+        }
+      }
+    },
+    "propertyTypes": {
+      "any": "Any Type",
+      "luxuryVillas": "Luxury Villas",
+      "twinVillas": "Twin Villas",
+      "duplexResidences": "Duplex Residences",
+      "signatureApartments": "Signature Apartments",
+      "commercialSpaces": "Commercial Spaces",
+      "primeLand": "Prime Land"
+    },
+    "sections": {
+      "topLocationsLabel": "Top Locations",
+      "topLocationsTitle": "Explore Properties by City",
+      "topLocationsDescription": "Discover prime real estate opportunities across Egypt's most sought-after locations. Each city offers unique investment potential and lifestyle advantages.",
+      "viewAll": "Explore All Properties",
+      "topDevelopersLabel": "Top Developers",
+      "topDevelopersTitle": "Trusted Developers",
+      "topDevelopersDescription": "Discover properties from Egypt's most trusted and reputable real estate developers.",
+      "viewAllDevelopers": "View All Developers",
+      "featuredLabel": "Featured Properties",
+      "featuredTitle": "Handpicked Premium Properties",
+      "featuredDescription": "Discover our handpicked collection of luxury properties, each carefully selected for their exceptional quality and investment potential.",
+      "appreciationRate": "+{{rate}}% yearly",
+      "propertiesCount_one": "{{count}} Property",
+      "propertiesCount_other": "{{count}} Properties"
+    },
+    "listings": {
+      "errorTitle": "We could not load the listings.",
+      "errorMessage": "Please refresh the page or try again in a few moments.",
+      "retry": "Retry",
+      "emptyFilters": "No properties match your search criteria.",
+      "emptyDefault": "No properties available at the moment.",
+      "adjustFilters": "Try adjusting your filters or clearing them to see more results.",
+      "checkBack": "Check back soon for new luxury property listings.",
+      "clearFilters": "Clear Filters",
+      "exploreAll": "Explore All Listings"
+    },
+    "leadSteps": {
+      "genericRequired": "This field is required",
+      "validationError": "Validation Error",
+      "stepToast": {
+        "successTitle": "Thank you!",
+        "successSubtitle": "A Basera property specialist will reach out shortly.",
+        "fallbackSubtitle": "Your request has been received. We'll contact you soon.",
+        "errorTitle": "Submission failed",
+        "errorSubtitle": "Please try again or contact us directly."
+      },
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "required": "Name is required",
+        "min": "Name must be at least 2 characters"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address",
+        "required": "Email is required",
+        "invalid": "Please enter a valid email address"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "required": "Phone number is required",
+        "invalid": "Please enter a valid phone number"
+      },
+      "service": {
+        "label": "Service Required",
+        "required": "Please select a service",
+        "options": {
+          "buy": "Buy Property",
+          "rent": "Rent Property",
+          "sell": "Sell Property",
+          "invest": "Investment"
+        }
+      },
+      "propertyType": {
+        "label": "Property Type",
+        "required": "Please select property type",
+        "options": {
+          "villa": "Villa",
+          "apartment": "Apartment",
+          "townhouse": "Townhouse",
+          "penthouse": "Penthouse",
+          "duplex": "Duplex"
+        }
+      },
+      "location": {
+        "label": "Preferred Location",
+        "placeholder": "City or area preference",
+        "required": "Location is required"
+      }
+    },
+    "leadForm": {
+      "badge": "Get Started",
+      "title": "Find Your Dream Property",
+      "subtitle": "Share your requirements and let our experts find the perfect match for you",
+      "submit": "Submit Request",
+      "toast": {
+        "successTitle": "Thank you!",
+        "successSubtitle": "Our team will contact you shortly.",
+        "errorTitle": "Failed to submit",
+        "errorSubtitle": "Please try again."
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email",
+        "phoneRequired": "Phone number is required"
+      },
+      "fields": {
+        "name": {
+          "label": "Full Name *",
+          "placeholder": "Enter your full name"
+        },
+        "email": {
+          "label": "Email Address *",
+          "placeholder": "name@example.com"
+        },
+        "phone": {
+          "label": "Phone Number *",
+          "placeholder": "+20 123 456 7890"
+        },
+        "service": {
+          "label": "I'm looking to *",
+          "options": {
+            "buy": "Buy a Property",
+            "rent": "Rent a Property",
+            "sell": "Sell My Property",
+            "invest": "Invest"
+          }
+        },
+        "propertyType": {
+          "label": "Property Type *",
+          "options": {
+            "apartment": "Apartment",
+            "villa": "Villa",
+            "duplex": "Duplex",
+            "twinVilla": "Twin Villa",
+            "land": "Land",
+            "commercial": "Commercial"
+          }
+        },
+        "purpose": {
+          "label": "Purpose *",
+          "options": {
+            "investment": "Investment",
+            "personal": "Personal Use"
+          }
+        },
+        "budgetFrom": {
+          "label": "Budget From (EGP)",
+          "placeholder": "e.g., 2,000,000"
+        },
+        "budgetTo": {
+          "label": "Budget To (EGP)",
+          "placeholder": "e.g., 5,000,000"
+        },
+        "location": {
+          "label": "Preferred Location",
+          "placeholder": "e.g., New Cairo, Sheikh Zayed"
+        },
+        "message": {
+          "label": "Additional Requirements",
+          "placeholder": "Tell us more about what you're looking for..."
+        }
+      }
+    },
+    "errorBoundary": {
+      "title": "Something went wrong",
+      "subtitle": "We're working to fix this issue. Please try refreshing the page.",
+      "cta": "Refresh Page"
+    }
+  },
+  "properties": {
+    "metaTitle": "Properties - Basera Real Estate",
+    "metaDescription": "Explore Basera’s curated portfolio of luxury homes and investment properties across Egypt’s most sought-after neighborhoods.",
+    "searchPlaceholder": "Search by type, area, or developer",
+    "searchPlaceholderMobile": "Search by type, area, or developer",
+    "sort": {
+      "label": "Sort By",
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "popular": "Most Popular"
+    },
+    "filters": {
+      "toggle": "Filters",
+      "title": "Filters",
+      "location": "Location",
+      "reset": "Reset",
+      "governorate": "Governorate",
+      "city": "City",
+      "area": "Area",
+      "selectGovernorateFirst": "Select governorate first",
+      "selectCityFirst": "Select city first",
+      "developers": "Developers",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "propertyTypes": "Property Types",
+      "furnishing": "Furnishing",
+      "price": "Price",
+      "unitArea": "Unit Area",
+      "amenities": "Amenities",
+      "mostPopular": "Most Popular",
+      "allProperties": "All Properties",
+      "onlyFeatured": "Most Popular Only",
+      "resetAll": "Reset All Filters"
+    },
+    "filterOptions": {
+      "propertyTypes": {
+        "apartment": "Apartment",
+        "villa": "Villa",
+        "twinVilla": "Twin Villa",
+        "duplex": "Duplex",
+        "land": "Land",
+        "commercial": "Commercial"
+      },
+      "furnishing": {
+        "unfurnished": "Unfurnished",
+        "semiFurnished": "Semi Furnished",
+        "furnished": "Furnished"
+      },
+      "amenities": {
+        "privatePool": "Private Pool",
+        "clubhouse": "Clubhouse access",
+        "undergroundParking": "Underground parking",
+        "security24_7": "24/7 security",
+        "smartHome": "Smart Home",
+        "beachAccess": "Beach access",
+        "gymMembership": "Gym membership",
+        "valetParking": "Valet parking",
+        "conferenceCenter": "Conference center",
+        "golfCourse": "Golf course access",
+        "communityPools": "Community pools",
+        "marinaAccess": "Marina access",
+        "kidsPlayArea": "Kids play area",
+        "medicalClinic": "Medical clinic"
+      }
+    },
+    "labels": {
+      "allGovernorates": "All Governorates",
+      "allCities": "All Cities",
+      "allAreas": "All Areas",
+      "min": "Min",
+      "max": "Max",
+      "minSqm": "Min m²",
+      "maxSqm": "Max m²",
+      "priceFrom": "Min",
+      "priceTo": "Max"
+    },
+    "states": {
+      "loading": "Loading properties...",
+      "error": "Failed to load properties",
+      "empty": "No properties found matching your criteria",
+      "emptyShort": "No properties found matching your criteria",
+      "clearPrompt": "Clear Filters"
+    },
+    "buttons": {
+      "applyFilters": "Apply Filters",
+      "tryAgain": "Try Again",
+      "clearFilters": "Clear Filters",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "actions": {
+      "seeMore": "See More"
+    },
+    "currency": {
+      "egp": "EGP"
+    },
+    "propertyTypeLabels": {
+      "apartment": "Apartment",
+      "villa": "Villa",
+      "twin-villa": "Twin Villa",
+      "duplex": "Duplex",
+      "land": "Land",
+      "commercial": "Commercial"
+    },
+    "toast": {
+      "added": "Added to favorites",
+      "addFailed": "Failed to add to favorites",
+      "removed": "Removed from favorites",
+      "removeFailed": "Failed to remove from favorites",
+      "loginRequired": "Please log in to save favorites",
+      "shareSuccess": "Property shared successfully!",
+      "copySuccess": "Property link copied to clipboard!",
+      "copyFailed": "Failed to copy link. Please copy manually."
+    },
+    "cards": {
+      "title": "{{type}}, {{title}}",
+      "description": "{{bedrooms}} {{type}} in {{title}} by {{developer}}. Size: {{area}} with {{bathrooms}}.",
+      "unknownDeveloper": "Unknown developer",
+      "area": "{{value}} {{unit}}",
+      "areaUnit": "m²",
+      "areaUnknown": "Area not specified",
+      "areaUnknownShort": "N/A",
+      "bedrooms": "{{count}} bedrooms",
+      "bedrooms_zero": "{{count}} bedrooms",
+      "bedrooms_one": "{{count}} bedroom",
+      "bedrooms_other": "{{count}} bedrooms",
+      "bathrooms": "{{count}} bathrooms",
+      "bathrooms_zero": "{{count}} bathrooms",
+      "bathrooms_one": "{{count}} bathroom",
+      "bathrooms_other": "{{count}} bathrooms",
+      "price": "{{value}} {{currency}}",
+      "priceUnknown": "Price on request",
+      "noImage": "No image available",
+      "shareTooltip": "Share property",
+      "shareText": "Check out this {{type}}: {{title}} - {{price}}",
+      "whatsappButton": "WhatsApp",
+      "whatsappMessage": "I'm interested in {{title}}",
+      "locationUnknown": "Location not specified",
+      "compoundBadge": "Compound overview"
+    }
+  },
+  "compound": {
+    "status": {
+      "planning": "Planning",
+      "launching": "Launching",
+      "active": "Active",
+      "delivered": "Delivered",
+      "on-hold": "On hold"
+    }
+  },
+  "about": {
+    "metaTitle": "About Us - Basera Real Estate",
+    "metaDescription": "Discover Basera's vision to become the leading real estate platform in the Middle East, empowering informed investment decisions.",
+    "hero": {
+      "badge": "About basera",
+      "title": "Empowering Your Real Estate Journey",
+      "subtitle": "basera is committed to delivering a comprehensive and unique real estate experience that goes far beyond sales. We provide advanced educational content and professional consultations to help you make confident, well-informed decisions."
+    },
+    "vision": {
+      "badge": "Our Vision",
+      "headline": "Leading Real Estate Platform",
+      "highlight": "in the Middle East",
+      "description": "To position basera as the leading and most influential real estate platform in the Middle East — connecting people not only with apartments and compounds, but with a comprehensive vision for a fulfilling and impactful lifestyle.",
+      "pillars": [
+        {
+          "title": "Leading Platform in the Middle East",
+          "description": "Positioning basera as the foremost educational and awareness-driven authority in the Arab world, standing among the industry's top enterprises."
+        },
+        {
+          "title": "Transforming Real Estate Investment",
+          "description": "Driving the transformation of how people think about property, positioning us as thought leaders in the market."
+        },
+        {
+          "title": "Empowering Informed Decisions",
+          "description": "Enabling individuals and investors to make conscious, data-driven choices with confidence and strategic insight."
+        },
+        {
+          "title": "Building a Sustainable Future",
+          "description": "Creating an integrated real estate ecosystem focused on holistic living, strategic growth, and social responsibility."
+        }
+      ]
+    },
+    "mission": {
+      "badge": "Our Mission",
+      "headline": "Beyond Sales, Building",
+      "highlight": "Lasting Relationships",
+      "description": "basera is committed to delivering a comprehensive and unique real estate experience that goes far beyond sales. We provide advanced educational and awareness-driven content, alongside professional and trustworthy consultations.",
+      "elements": [
+        "Deliver a holistic and distinctive real estate experience that extends beyond selling, focusing on building long-term, data-driven client relationships.",
+        "Differentiate from traditional real estate companies by offering a unique and enriching journey — not just the sale of a property.",
+        "Provide high-quality educational content that builds trust and enhances real estate awareness, supported by specialized and credible consulting services.",
+        "Empower clients with deep market insight and economic understanding, guiding them toward confident and wise investment choices.",
+        "Build long-term trust-based relationships that connect clients with the most suitable real estate opportunities for their needs and future goals."
+      ]
+    },
+    "objectives": {
+      "badge": "Strategic Objectives",
+      "headline": "Our Path to",
+      "highlight": "Market Leadership",
+      "items": [
+        {
+          "number": "01",
+          "title": "Educational Leadership",
+          "description": "Establish basera as the strongest real estate educational and awareness platform in the Arab world within the next four years."
+        },
+        {
+          "number": "02",
+          "title": "Service Expansion",
+          "description": "Expand our service scope to include B2B partnerships in addition to B2C clients, broadening our market reach."
+        },
+        {
+          "number": "03",
+          "title": "Strategic Alliances",
+          "description": "Strengthen partnerships with leading real estate companies in Egypt and across the Middle East."
+        }
+      ]
+    },
+    "values": {
+      "badge": "Core Values",
+      "headline": "What Drives Us",
+      "highlight": "Forward",
+      "description": "Our core values define who we are and guide every decision we make at basera.",
+      "items": [
+        {
+          "title": "Commitment",
+          "description": "We are dedicated to providing accurate and reliable information to our clients, ensuring trust in every interaction."
+        },
+        {
+          "title": "Innovation",
+          "description": "We continually evolve our services and products to meet our clients' changing needs and market demands."
+        },
+        {
+          "title": "Transparency",
+          "description": "We maintain complete openness in all our dealings with clients and partners, fostering lasting relationships."
+        },
+        {
+          "title": "Excellence",
+          "description": "We strive for distinction in everything we do to ensure an exceptional experience for our clients."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Ready to Start Your",
+      "highlight": "Real Estate Journey?",
+      "description": "Join thousands of informed investors who trust basera for their real estate decisions.",
+      "button": "Explore Properties"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact Us | basera Real Estate",
+    "metaDescription": "Get in touch with basera Real Estate. Contact our expert team for property inquiries, consultations, and personalized service.",
+    "hero": {
+      "badge": "Get In Touch",
+      "title": "Let's Start Your",
+      "highlight": "Real Estate Journey",
+      "subtitle": "Connect with our expert team for personalized property solutions and professional guidance."
+    },
+    "cards": {
+      "email": {
+        "title": "Email Us",
+        "subtitle": "We reply within one business day"
+      },
+      "phone": {
+        "title": "Call Us",
+        "subtitle": "Speak directly with our specialists"
+      },
+      "address": {
+        "title": "Visit Us",
+        "subtitle": "Schedule an in-person consultation",
+        "details": "Cairo, Egypt"
+      }
+    },
+    "features": [
+      {
+        "title": "Personalized Service",
+        "description": "Tailored property recommendations that match your lifestyle and investment goals."
+      },
+      {
+        "title": "Expert Guidance",
+        "description": "Professional advice from experienced consultants who understand the Egyptian market."
+      },
+      {
+        "title": "Quick Response",
+        "description": "We respond to every inquiry within 24 hours to keep your plans moving."
+      }
+    ],
+    "form": {
+      "title": "Send us a Message",
+      "infoTitle": "Ready to Find Your Perfect Property?",
+      "infoDescription": "Complete the form and our expert team will reach out within 24 hours with tailored recommendations.",
+      "selectPlaceholder": "Select a service",
+      "services": {
+        "buy": "Buy Property",
+        "sell": "Sell Property",
+        "rent": "Rent Property",
+        "consultation": "Consultation",
+        "investment": "Investment Advice"
+      },
+      "fields": {
+        "firstName": {
+          "label": "First Name *",
+          "placeholder": "John"
+        },
+        "lastName": {
+          "label": "Last Name *",
+          "placeholder": "Doe"
+        },
+        "email": {
+          "label": "Email Address *",
+          "placeholder": "john@example.com"
+        },
+        "phone": {
+          "label": "Phone Number *",
+          "placeholder": "+20 123 456 7890"
+        },
+        "service": {
+          "label": "Service Needed *"
+        },
+        "message": {
+          "label": "Your Message",
+          "placeholder": "Tell us about your requirements..."
+        }
+      },
+      "sending": "Sending...",
+      "submitLabel": "Send Message"
+    },
+    "toast": {
+      "success": {
+        "title": "Message sent successfully!",
+        "subtitle": "We'll contact you within 24 hours."
+      },
+      "error": {
+        "title": "Failed to send message",
+        "subtitle": "Please check your details and try again."
+      }
+    },
+    "validation": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "serviceRequired": "Please select a service"
+    },
+    "map": {
+      "title": "Visit Our Office",
+      "subtitle": "Come meet our team in person for a personalized consultation.",
+      "iframeTitle": "basera Office Location"
+    }
+  },
+  "developers": {
+    "metaTitle": "Real Estate Developers | basera",
+    "metaDescription": "Browse trusted real estate developers. Find properties from leading developers in Egypt.",
+    "hero": {
+      "badge": "Trusted Partners",
+      "titleLine1": "Egypt's Leading",
+      "titleHighlight": "Real Estate Developers",
+      "subtitle": "Discover the trusted developers behind Egypt's most prestigious properties."
+    },
+    "controls": {
+      "searchPlaceholder": "Search developers...",
+      "sortLabel": "Sort by:",
+      "sortName": "Name",
+      "sortProjects": "Projects"
+    },
+    "resultsCount": "{{count}} developers found",
+    "resultsCount_one": "{{count}} developer found",
+    "resultsCount_other": "{{count}} developers found",
+    "states": {
+      "error": {
+        "title": "Failed to load developers",
+        "subtitle": "Please try again later."
+      },
+      "empty": {
+        "title": "No developers found",
+        "search": "Try adjusting your search terms.",
+        "default": "Check back soon for new developers."
+      }
+    },
+    "cards": {
+      "projects": "{{count}} projects",
+      "projects_one": "{{count}} project",
+      "projects_other": "{{count}} projects",
+      "ctaLabel": "View all projects",
+      "ctaAction": "Explore"
+    }
+  },
+  "launches": {
+    "metaTitle": "Exclusive Property Launches | basera Real Estate",
+    "metaDescription": "Discover exclusive property launches from Egypt's leading developers. Get early access to the most sought-after developments.",
+    "hero": {
+      "badge": "Exclusive Launches",
+      "titleLine1": "Discover Egypt's",
+      "titleHighlight": "Newest Developments",
+      "subtitle": "Get early access to exclusive property launches from Egypt's most prestigious developers."
+    },
+    "filters": {
+      "searchPlaceholder": "Search launches...",
+      "toggle": "Filters",
+      "statusLabel": "Status",
+      "statusAll": "All",
+      "propertyTypeLabel": "Property Type",
+      "propertyTypeAll": "All Types",
+      "clearAll": "Clear All Filters",
+      "propertyTypes": {
+        "villa": "Villa",
+        "apartment": "Apartment",
+        "townhouse": "Townhouse",
+        "penthouse": "Penthouse",
+        "duplex": "Duplex",
+        "studio": "Studio",
+        "commercial": "Commercial",
+        "land": "Land"
+      }
+    },
+    "status": {
+      "available": "Available",
+      "coming-soon": "Coming Soon",
+      "pre-launch": "Pre-Launch",
+      "sold-out": "Sold Out"
+    },
+    "currency": {
+      "egp": "EGP"
+    },
+    "units": {
+      "sqm": "sqm"
+    },
+    "resultsCount": "{{count}} launches found",
+    "resultsCount_one": "{{count}} launch found",
+    "resultsCount_other": "{{count}} launches found",
+    "states": {
+      "empty": {
+        "title": "No launches found",
+        "subtitle": "Try adjusting your search criteria or filters.",
+        "cta": "Clear Filters"
+      }
+    },
+    "cards": {
+      "featured": "FEATURED",
+      "byDeveloper": "by {{developer}}",
+      "price": "{{currency}} {{value}}",
+      "countdown": "({{count}} days left)",
+      "area": "{{value}} {{unit}}",
+      "bedrooms": "{{count}} beds",
+      "bedrooms_one": "{{count}} bed",
+      "bedrooms_other": "{{count}} beds",
+      "view": "View"
+    }
+  },
+  "blog": {
+    "metaTitle": "basera Blog | Real Estate Insights & Market Trends",
+    "metaDescription": "Stay updated with basera’s latest real estate news, market analysis, investment guides, and property trends across Egypt.",
+    "hero": {
+      "badge": "Insights & Analysis",
+      "title": "basera Blog",
+      "subtitle": "Your source for real estate insights, market trends, and investment wisdom."
+    },
+    "searchPlaceholder": "Search articles...",
+    "categories": {
+      "all": "All",
+      "real-estate-tips": "Real Estate Tips",
+      "market-insights": "Market Insights",
+      "investment-guide": "Investment Guide",
+      "property-news": "Property News",
+      "developer-updates": "Developer Updates",
+      "general": "General"
+    },
+    "featured": {
+      "heading": "Featured Articles"
+    },
+    "latest": {
+      "heading": "Latest Articles"
+    },
+    "states": {
+      "emptyTitle": "No articles found",
+      "emptySubtitle": "Try adjusting your search or category filter."
+    },
+    "cards": {
+      "read": "Read",
+      "readMore": "Read More",
+      "views": "{{formatted}} views",
+      "views_one": "{{formatted}} view",
+      "views_other": "{{formatted}} views"
+    }
+  },
+  "compoundsPage": {
+    "metaTitle": "Compounds | basera Real Estate",
+    "metaDescription": "Explore master-planned compounds with basera Real Estate. Compare delivery milestones, amenities, and developers to find your next community.",
+    "hero": {
+      "badge": "Exclusive Compounds",
+      "titleLine1": "Discover Egypt's",
+      "titleHighlight": "Masterplanned Communities",
+      "subtitle": "Track upcoming communities, compare amenity stacks, and jump straight into listings within each development—all curated by basera’s strategy team."
+    },
+    "stats": {
+      "total": "Total Compounds",
+      "featured": "Featured",
+      "launching": "Launching",
+      "active": "Live & Active"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by compound name, developer, or amenity...",
+      "refresh": "Refresh",
+      "toggle": "Filters",
+      "syncing": "Syncing latest data…",
+      "statusAll": "All statuses",
+      "featuredOnly": "Featured only",
+      "clear": "Clear filters"
+    },
+    "resultsCount": "{{count}} compounds found",
+    "loading": "Loading compounds…",
+    "actions": {
+      "retry": "Retry"
+    },
+    "states": {
+      "errorTitle": "Failed to load compounds",
+      "errorSubtitle": "Please try again later.",
+      "emptyTitle": "No compounds found",
+      "emptySubtitle": "Try refining your search or check back soon for new communities."
+    }
+  },
+  "roi": {
+    "metaTitle": "ROI Calculator | basera Real Estate",
+    "metaDescription": "Calculate detailed real estate ROI tailored for Egypt, including appreciation, rental income, financing costs, taxes, and maintenance.",
+    "metaKeywords": "ROI calculator, property investment, real estate calculator, Egypt property, investment returns, rental yield",
+    "section": {
+      "badge": "Investment Calculator",
+      "titleLine1": "ROI",
+      "titleLine2": "Calculator",
+      "description": {
+        "advanced": "Calculate your property investment returns with Egypt-specific factors including financing costs, taxes, maintenance, and vacancy rates.",
+        "simple": "Quick and simple property investment calculator with basic rental yield and appreciation calculations."
+      },
+      "mode": {
+        "simple": "Simple",
+        "advanced": "Advanced"
+      }
+    },
+    "inputs": {
+      "propertyDetails": "Property Details",
+      "basicDetails": "Basic Details",
+      "propertyPriceLabel": "Property Price (EGP)",
+      "monthlyRentLabel": "Monthly Rental Income (EGP)",
+      "investmentPeriodLabel": "Investment Period (Years)",
+      "investmentPeriodRangeMin": "1 year",
+      "investmentPeriodRangeMax": "30 years",
+      "years": "{{count}} years",
+      "years_zero": "{{count}} years",
+      "years_one": "{{count}} year",
+      "years_other": "{{count}} years",
+      "location": {
+        "heading": "Select Location (Auto-populate Appreciation Rate)",
+        "governorate": "Governorate",
+        "governoratePlaceholder": "-- Select Governorate --",
+        "city": "City",
+        "cityPlaceholder": "-- Select City --",
+        "cityPlaceholderDisabled": "-- Select governorate first --",
+        "area": "Area",
+        "areaPlaceholder": "-- Select Area --",
+        "areaPlaceholderDisabled": "-- Select city first --",
+        "areaSelected": "{{name}} ({{rate}} appreciation)",
+        "areaOption": "{{name}} ({{rate}} appreciation)"
+      },
+      "appreciationRate": {
+        "label": "Annual Appreciation Rate (%)",
+        "labelSelected": "Annual Appreciation Rate (%) (from {{name}})",
+        "min": "3%",
+        "max": "20%"
+      },
+      "financialHeading": "Financial Parameters",
+      "downPayment": "Down Payment (%)",
+      "mortgageRate": "Mortgage Rate (%)",
+      "propertyTaxRate": "Property Tax Rate (%)",
+      "maintenanceRate": "Annual Maintenance (%)",
+      "vacancyRate": "Vacancy Rate (%)"
+    },
+    "results": {
+      "investmentReturns": "Investment Returns",
+      "quickResults": "Quick Results",
+      "totalROI": "Total ROI",
+      "simpleROI": "Simple ROI",
+      "annualROI": "{{value}} annually",
+      "breakdown": {
+        "investment": "Investment Breakdown",
+        "simple": "Simple Breakdown"
+      },
+      "futureValue": "Future Property Value",
+      "totalRentalIncome": "Total Rental Income",
+      "capitalAppreciation": "Capital Appreciation",
+      "totalCosts": "Total Costs",
+      "netProfit": "Net Profit",
+      "totalReturns": "Total Returns",
+      "monthlyDetails": "Monthly Details",
+      "simpleDetails": "Simple Details",
+      "monthlyMortgage": "Monthly Mortgage Payment",
+      "monthlyIncome": "Monthly Rental Income",
+      "monthlyCashFlow": "Monthly Cash Flow",
+      "monthlyIncomeSimple": "Monthly Income"
+    },
+    "cta": {
+      "headingLine1": "Ready to Invest in",
+      "headingHighlight": "Egypt's Real Estate?",
+      "text": "Discover exclusive properties and get expert guidance on your investment journey with basera's premium real estate services.",
+      "primary": "View Properties",
+      "secondary": "Get Expert Advice"
+    },
+    "propertyWidget": {
+      "title": "Investment Potential",
+      "cityAppreciation": "{{city}}: {{rate}} annual appreciation",
+      "cityFallback": "the city",
+      "investmentPeriod": "Investment Period",
+      "years": "{{count}} years",
+      "years_zero": "{{count}} years",
+      "years_one": "{{count}} year",
+      "years_other": "{{count}} years",
+      "rangeMin": "1 year",
+      "rangeMax": "30 years",
+      "currentValue": "Current Value",
+      "futureValue": "Future Value",
+      "afterYears_one": "After {{count}} year",
+      "afterYears_other": "After {{count}} years",
+      "totalAppreciation": "Total Appreciation",
+      "positiveValue": "+{{value}}",
+      "negativeValue": "-{{value}}",
+      "roi": "Return on Investment",
+      "annualReturn": "Avg. Annual Return",
+      "disclaimer": "<strong>Note:</strong> This calculation is based on historical appreciation rates for {{city}} and represents projected value appreciation only. Actual returns may vary based on market conditions, property condition, and other factors. This is for informational purposes only and should not be considered financial advice."
+    }
+  },
+  "cta": {
+    "inquireNow": "Inquire Now",
+    "exploreAllProperties": "Explore All Properties"
+  },
+  "registration": {
+    "newsletter": {
+      "label": "I want to receive news from newsletter"
+    }
+  },
+  "admin": {
+    "newsletter": {
+      "title": "Newsletter Subscriptions",
+      "subtitle": "Manage newsletter subscribers",
+      "export": "Export to Excel",
+      "refresh": "Refresh",
+      "searchPlaceholder": "Search by email...",
+      "filterSource": "All Sources",
+      "filterFooter": "Footer",
+      "filterRegistration": "Registration",
+      "clearFilters": "Clear Filters",
+      "columns": {
+        "email": "Email",
+        "subscribedDate": "Subscribed Date",
+        "source": "Source",
+        "user": "User",
+        "status": "Status"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "empty": {
+        "title": "No newsletter subscriptions found",
+        "subtitle": "Try adjusting your search criteria or check back later for new subscriptions."
+      },
+      "exportSuccess": "Newsletter subscriptions exported successfully",
+      "exportError": "Failed to export newsletter subscriptions",
+      "refreshSuccess": "Newsletter subscriptions refreshed successfully",
+      "refreshError": "Failed to refresh newsletter subscriptions"
+    }
+  },
+  "video": {
+    "metaTitle": "Video Orientations - basera Real Estate",
+    "player": {
+      "play": "Play",
+      "pause": "Pause",
+      "mute": "Mute",
+      "unmute": "Unmute",
+      "fullscreen": "Fullscreen",
+      "previous": "Previous video",
+      "next": "Next video"
+    },
+    "card": {
+      "views": "{{count}} view",
+      "views_plural": "{{count}} views"
+    },
+    "playlist": {
+      "noVideos": "No videos in playlist",
+      "videos": "videos",
+      "views": "{{count}} view",
+      "views_plural": "{{count}} views",
+      "videoOf": "Video {{current}} of {{total}}",
+      "notFound": "Playlist not found",
+      "goBack": "Go Back",
+      "back": "Back",
+      "metaTitle": "Video Playlist"
+    },
+    "embedded": {
+      "title": "Video Orientations",
+      "singleVideo": "1 video",
+      "multipleVideos": "{{count}} videos",
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "viewAllVideos": "View All Videos",
+      "clickToExpand": "Click to view {{count}} videos"
+    },
+    "metaTitle": "Videos - basera Real Estate",
+    "title": "Video Orientations",
+    "subtitle": "Explore our collection of property videos, virtual tours, and project orientations",
+    "hero": {
+      "badge": "Video Orientations"
+    },
+    "searchPlaceholder": "Search videos...",
+    "filters": "Filters",
+    "clearFilters": "Clear Filters",
+    "search": "Search",
+    "filterStatus": "Status",
+    "allStatuses": "All Statuses",
+    "statusPublished": "Published",
+    "statusDraft": "Draft",
+    "filterType": "Type",
+    "allTypes": "All Types",
+    "typeProperty": "Property",
+    "typeCompound": "Compound",
+    "typeLaunch": "Launch",
+    "typeGeneral": "General",
+    "featured": "Featured Videos",
+    "allVideos": "All Videos",
+    "totalVideos": "{{count}} videos",
+    "loading": "Loading videos...",
+    "error": "Error loading videos",
+    "retry": "Retry",
+    "empty": "No videos found",
+    "previous": "Previous",
+    "next": "Next",
+    "pageInfo": "Page {{current}} of {{total}}",
+    "detail": {
+      "title": "Video Orientations",
+      "metaTitle": "Video Orientations",
+      "notFound": "Video not found",
+      "goBack": "Go Back",
+      "back": "Back",
+      "share": "Share",
+      "shareText": "Check out this video: {{title}}",
+      "views": "{{count}} view",
+      "views_plural": "{{count}} views",
+      "playlistVideos": "Playlist Videos",
+      "relatedVideos": "Related Videos"
+    },
+    "admin": {
+      "videos": {
+        "title": "Videos",
+        "subtitle": "Manage video orientations",
+      "create": "Create Video",
+      "edit": "Edit Video",
+      "delete": "Delete Video",
+          "view": "View",
+          "refresh": "Refresh",
+          "cancel": "Cancel",
+          "deleteConfirm": "Delete Video",
+          "deleteMessage": "Are you sure you want to delete this video? This action cannot be undone.",
+          "notFound": "Video not found",
+          "back": "Back to Videos",
+          "createDescription": "Upload and configure a new video orientation.",
+          "editDescription": "Update video information and settings.",
+          "searchPlaceholder": "Search videos...",
+        "filterType": "Filter by Type",
+        "filterCompound": "Compound",
+        "filterLaunch": "Launch",
+        "filterProperty": "Property",
+        "columns": {
+          "title": "Title",
+          "type": "Type",
+          "associated": "Associated",
+          "duration": "Duration",
+          "views": "Views",
+          "status": "Status",
+          "actions": "Actions"
+        },
+        "empty": {
+          "title": "No videos found",
+          "subtitle": "Create your first video orientation"
+        },
+        "createSuccess": "Video created successfully",
+        "createError": "Failed to create video",
+        "updateSuccess": "Video updated successfully",
+        "updateError": "Failed to update video",
+        "update": "Update Video",
+        "saving": "Saving...",
+        "videoRequired": "Please upload a video",
+        "form": {
+          "title": "Title",
+          "titlePlaceholder": "Enter video title",
+          "titleRequired": "Title is required",
+          "description": "Description",
+          "descriptionPlaceholder": "Enter video description",
+          "associatedType": "Associated Type",
+          "associatedEntity": "Associated Entity",
+          "selectEntity": "Select...",
+          "entityRequired": "Please select an entity",
+          "order": "Order",
+          "featured": "Featured",
+          "active": "Active",
+          "video": "Video"
+        }
+      },
+      "playlists": {
+        "title": "Video Playlists",
+        "subtitle": "Manage video playlists",
+        "create": "Create Playlist",
+        "edit": "Edit Playlist",
+        "delete": "Delete Playlist",
+        "searchPlaceholder": "Search playlists...",
+        "filterType": "Filter by Type",
+        "filterAuto": "Auto",
+        "filterManual": "Manual",
+        "columns": {
+          "title": "Title",
+          "type": "Type",
+          "videos": "Videos",
+          "status": "Status",
+          "actions": "Actions"
+        },
+        "empty": {
+          "title": "No playlists found",
+          "subtitle": "Create your first playlist"
+        },
+        "createSuccess": "Playlist created successfully",
+        "createError": "Failed to create playlist",
+        "updateSuccess": "Playlist updated successfully",
+        "updateError": "Failed to update playlist",
+        "update": "Update Playlist",
+        "saving": "Saving...",
+        "cancel": "Cancel",
+        "form": {
+          "title": "Title",
+          "titlePlaceholder": "Enter playlist title",
+          "titleRequired": "Title is required",
+          "description": "Description",
+          "descriptionPlaceholder": "Enter playlist description",
+          "type": "Playlist Type",
+          "associatedType": "Associated Type",
+          "associatedEntity": "Associated Entity",
+          "selectType": "Select type...",
+          "selectEntity": "Select...",
+          "videos": "Videos",
+          "addVideo": "Add video to playlist...",
+          "remove": "Remove",
+          "noVideos": "No videos added yet"
+        }
+      }
+    }
+  },
+  "leadPage": {
+    "metaTitle": "Speak with basera Advisors | Tailored Lead Form",
+    "metaDescription": "Share your goals and let basera's advisory team connect you with curated properties and launches across Egypt.",
+    "hero": {
+      "badge": "Personal advisory",
+      "title": "Plan your next property move with basera",
+      "subtitle": "Tell us where you are in your journey and our dedicated advisors will send back a precise property shortlist, launch intel, and financing paths.",
+      "primaryCta": "Start your brief",
+      "secondaryCta": "Call our advisors",
+      "secondaryCtaPhone": "+201009990000",
+      "highlightTitle": "Everything starts with understanding",
+      "highlightSubtitle": "Every submission is reviewed manually within 1 business day.",
+      "highlights": [
+        {
+          "title": "Human-first discovery",
+          "description": "We map your goals, timelines, and risk profile before recommending anything."
+        },
+        {
+          "title": "Market-backed analysis",
+          "description": "Benchmark against real launch data, resale comps, and rental yields."
+        },
+        {
+          "title": "Clear execution path",
+          "description": "From site tours to paperwork, we stay beside you until the signature."
+        }
+      ]
+    },
+    "stats": [
+      {
+        "label": "Qualified buyers guided",
+        "value": "6,500+",
+        "description": "Across new launches and resale listings"
+      },
+      {
+        "label": "Projects monitored",
+        "value": "180+",
+        "description": "Developers and communities across Egypt"
+      },
+      {
+        "label": "Avg. response time",
+        "value": "< 6 hrs",
+        "description": "Dedicated advisory follow-up"
+      }
+    ],
+    "benefits": {
+      "badge": "Why basera",
+      "title": "Your ambitions translated into a property plan",
+      "subtitle": "We pair real-time market intelligence with concierge-level service.",
+      "items": [
+        {
+          "eyebrow": "Insight",
+          "title": "Data-verified recommendations",
+          "description": "Every opportunity is stress-tested against historic absorption, payment plans, and ROI models.",
+          "bullets": [
+            "Cross-checks with launch calendars and developer track records",
+            "Transparent ROI, rental yield, and exit strategies"
+          ]
+        },
+        {
+          "eyebrow": "Curation",
+          "title": "Inventory you can't Google",
+          "description": "From early allocations to private resale inventory, we surface options that align with your appetite.",
+          "bullets": [
+            "Priority access to tier-one launches",
+            "Pre-screened resale opportunities with verified paperwork"
+          ]
+        },
+        {
+          "eyebrow": "Execution",
+          "title": "Advisors that stay with you",
+          "description": "Legal reviews, payment reminders, and post-handover support keep your investment on track.",
+          "bullets": [
+            "One point of contact through the full cycle",
+            "Introductions to financing and furnishing partners"
+          ]
+        }
+      ]
+    },
+    "process": {
+      "badge": "How it works",
+      "title": "A clear path from brief to closing",
+      "subtitle": "Three simple stages to get you from idea to investment.",
+      "steps": [
+        {
+          "title": "Share your brief",
+          "description": "Tell us about your goals, preferred locations, budget range, and timeline."
+        },
+        {
+          "title": "Review your playbook",
+          "description": "Receive a curated property dossier with numbers, comparisons, and next-step recommendations."
+        },
+        {
+          "title": "Execute confidently",
+          "description": "Book tours, reserve units, and finalize paperwork with our advisors by your side."
+        }
+      ]
+    },
+    "form": {
+      "badge": "Get matched",
+      "title": "Tell us about your plans and we’ll build the shortlist",
+      "subtitle": "Fill in the form below and a basera advisor will respond within one business day."
+    },
+    "support": {
+      "badge": "Need help now?",
+      "title": "Speak directly with our advisory desk",
+      "subtitle": "Prefer WhatsApp or email? We'll respond within business hours.",
+      "primaryCta": "Submit your brief",
+      "secondaryCta": "Email the team",
+      "secondaryCtaEmail": "hello@basera.com"
+    }
+  },
+  "legal": {
+    "metaTitle": "Legal Information - Privacy Policy, Terms of Service & Cookie Policy | basera Real Estate",
+    "metaDescription": "Read our Privacy Policy, Terms of Service, and Cookie Policy. Understand how we handle your data and the terms of using our services.",
+    "hero": {
+      "badge": "Legal Information",
+      "title": "Privacy, Terms & Policies",
+      "subtitle": "Transparency and trust are at the core of our commitment to you. Review our policies to understand how we protect your data and govern our services."
+    },
+    "tableOfContents": {
+      "title": "Table of Contents",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "cookiePolicy": "Cookie Policy"
+    },
+    "lastUpdated": "Last Updated",
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "sections": {
+        "introduction": {
+          "title": "Introduction",
+          "content": "At basera Real Estate, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your data when you use our website and services. By accessing or using our platform, you consent to the practices described in this policy."
+        },
+        "dataCollection": {
+          "title": "Information We Collect",
+          "content": [
+            "Personal Information: Name, email address, phone number, and other contact details provided during registration or inquiries",
+            "Property Preferences: Your search criteria, budget range, preferred locations, and property requirements",
+            "Usage Data: Pages visited, time spent on site, click patterns, and navigation history",
+            "Device Information: IP address, browser type, device identifiers, and operating system",
+            "Communication Records: Messages sent through our platform, inquiry history, and customer service interactions",
+            "Payment Information: When applicable, we may process payment data through secure third-party payment processors"
+          ]
+        },
+        "dataUsage": {
+          "title": "How We Use Your Information",
+          "content": [
+            "Provide and improve our real estate services and platform functionality",
+            "Match you with relevant properties based on your preferences and requirements",
+            "Communicate with you about property listings, inquiries, and service updates",
+            "Send newsletters, market insights, and promotional materials (with your consent)",
+            "Process transactions and manage your account",
+            "Respond to your inquiries and provide customer support",
+            "Analyze usage patterns to enhance user experience and platform performance",
+            "Comply with legal obligations and prevent fraudulent activities"
+          ]
+        },
+        "dataSharing": {
+          "title": "Information Sharing and Disclosure",
+          "content": "We do not sell your personal information. We may share your data with trusted third parties only in the following circumstances: property developers and agents (when you express interest in a property), service providers who assist in our operations (payment processors, cloud hosting, analytics), legal authorities when required by law, and business transfers in case of merger or acquisition. All third parties are required to maintain the confidentiality and security of your information."
+        },
+        "security": {
+          "title": "Data Security",
+          "content": "We implement industry-standard security measures to protect your personal information, including encryption, secure servers, access controls, and regular security assessments. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security."
+        },
+        "userRights": {
+          "title": "Your Rights and Choices",
+          "content": [
+            "Access: Request a copy of your personal data we hold",
+            "Correction: Update or correct inaccurate information",
+            "Deletion: Request removal of your personal data (subject to legal requirements)",
+            "Opt-Out: Unsubscribe from marketing communications at any time",
+            "Data Portability: Request your data in a structured, machine-readable format",
+            "Restriction: Request limitation of how we process your data",
+            "Withdraw Consent: Revoke consent for data processing where applicable"
+          ]
+        },
+        "retention": {
+          "title": "Data Retention",
+          "content": "We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy, comply with legal obligations, resolve disputes, and enforce our agreements. When data is no longer needed, we securely delete or anonymize it."
+        },
+        "changes": {
+          "title": "Changes to This Policy",
+          "content": "We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. We will notify you of significant changes by posting the updated policy on our website and updating the 'Last Updated' date. Your continued use of our services after such changes constitutes acceptance of the updated policy."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "content": "If you have questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact us at privacy@basera-realestate.com or through our contact page."
+        }
+      }
+    },
+    "termsOfService": {
+      "title": "Terms of Service",
+      "sections": {
+        "agreement": {
+          "title": "Agreement to Terms",
+          "content": "By accessing or using basera Real Estate's website and services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this platform."
+        },
+        "services": {
+          "title": "Our Services",
+          "content": "basera Real Estate provides a digital platform for browsing, searching, and inquiring about real estate properties in Egypt. We connect users with property listings, developers, and real estate professionals. We act as an intermediary platform and do not guarantee the accuracy, availability, or condition of listed properties."
+        },
+        "userAccounts": {
+          "title": "User Accounts",
+          "content": [
+            "You must provide accurate and complete information when creating an account",
+            "You are responsible for maintaining the confidentiality of your account credentials",
+            "You must notify us immediately of any unauthorized access to your account",
+            "You are responsible for all activities that occur under your account",
+            "We reserve the right to suspend or terminate accounts that violate these terms"
+          ]
+        },
+        "propertyListings": {
+          "title": "Property Listings",
+          "content": "Property information, images, prices, and availability are provided by third parties (developers, agents, property owners) and are subject to change without notice. We make reasonable efforts to ensure accuracy but do not warrant the completeness or reliability of property information. Prices, specifications, and availability are subject to verification and may vary."
+        },
+        "userConduct": {
+          "title": "Acceptable Use",
+          "content": [
+            "Use our platform only for lawful purposes and in accordance with these terms",
+            "Do not post false, misleading, or fraudulent information",
+            "Do not attempt to gain unauthorized access to our systems or data",
+            "Do not use automated systems to scrape, harvest, or extract data without permission",
+            "Do not interfere with or disrupt the platform's functionality",
+            "Respect intellectual property rights and do not infringe upon copyrights or trademarks",
+            "Do not use the platform to transmit viruses, malware, or harmful code"
+          ]
+        },
+        "intellectualProperty": {
+          "title": "Intellectual Property",
+          "content": "All content on this platform, including text, graphics, logos, images, software, and designs, is the property of basera Real Estate or its licensors and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without our express written permission."
+        },
+        "liability": {
+          "title": "Limitation of Liability",
+          "content": "To the fullest extent permitted by law, basera Real Estate and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or business opportunities, arising from your use of our services. Our total liability shall not exceed the amount you paid to us, if any, in the 12 months preceding the claim."
+        },
+        "termination": {
+          "title": "Termination",
+          "content": "We reserve the right to suspend, restrict, or terminate your access to our platform at any time, with or without cause or notice, for any reason including violation of these terms, fraudulent activity, or legal requirements. Upon termination, your right to use the platform will immediately cease."
+        },
+        "modifications": {
+          "title": "Modifications to Terms",
+          "content": "We reserve the right to modify these Terms of Service at any time. Material changes will be communicated through our platform or via email. Your continued use of our services after changes become effective constitutes acceptance of the modified terms."
+        },
+        "governingLaw": {
+          "title": "Governing Law",
+          "content": "These Terms of Service are governed by and construed in accordance with the laws of Egypt. Any disputes arising from these terms or your use of our services shall be subject to the exclusive jurisdiction of the courts of Egypt."
+        }
+      }
+    },
+    "cookiePolicy": {
+      "title": "Cookie Policy",
+      "sections": {
+        "introduction": {
+          "title": "What Are Cookies",
+          "content": "Cookies are small text files that are placed on your device when you visit our website. They help us provide you with a better experience, analyze site usage, and customize content. This Cookie Policy explains how basera Real Estate uses cookies and similar technologies on our platform."
+        },
+        "cookieTypes": {
+          "title": "Types of Cookies We Use",
+          "content": [
+            "Essential Cookies: Required for the website to function properly. These enable core functionality such as security, network management, and accessibility. They cannot be disabled.",
+            "Analytics Cookies: Help us understand how visitors interact with our website by collecting anonymous information about pages visited, time spent, and user paths. We use this data to improve our platform.",
+            "Functional Cookies: Remember your preferences and settings (language, location, search filters) to provide a personalized experience during your visit and on return visits.",
+            "Targeting Cookies: Used to deliver relevant advertisements and track campaign effectiveness. These may be set by advertising partners and are subject to their privacy policies."
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Cookies",
+          "content": [
+            "Enable core website functionality and security features",
+            "Remember your preferences and settings for a personalized experience",
+            "Analyze website traffic and user behavior to improve our services",
+            "Track the effectiveness of our marketing campaigns",
+            "Provide relevant property recommendations based on your interests",
+            "Support social media integration and sharing features"
+          ]
+        },
+        "thirdParty": {
+          "title": "Third-Party Cookies",
+          "content": "We may use services from third-party providers that set their own cookies, including Google Analytics for website analytics, social media platforms for sharing features, and advertising networks for relevant ads. These third parties have their own privacy policies governing cookie usage."
+        },
+        "managing": {
+          "title": "Managing Cookies",
+          "content": "You have the right to accept or decline cookies. Most web browsers automatically accept cookies, but you can modify your browser settings to decline cookies if you prefer. However, disabling certain cookies may impact your experience and limit some functionality of our website."
+        },
+        "browserSettings": {
+          "title": "Browser Cookie Settings",
+          "content": "To manage cookies in your browser: Chrome - Settings > Privacy and security > Cookies, Firefox - Options > Privacy & Security > Cookies, Safari - Preferences > Privacy > Cookies, Edge - Settings > Privacy > Cookies. Please note that blocking all cookies may affect website functionality."
+        },
+        "updates": {
+          "title": "Updates to Cookie Policy",
+          "content": "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, or our practices. The updated policy will be posted on this page with a revised 'Last Updated' date. We encourage you to review this policy periodically."
+        }
+      }
+    }
+  }
+}
+

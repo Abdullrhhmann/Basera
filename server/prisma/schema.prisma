@@ -1,0 +1,668 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserRole {
+  USER              @map("user")
+  ADMIN             @map("admin")
+  SALES_MANAGER     @map("sales_manager")
+  SALES_TEAM_LEADER @map("sales_team_leader")
+  SALES_AGENT       @map("sales_agent")
+}
+
+enum PropertyType {
+  VILLA       @map("villa")
+  TWIN_VILLA  @map("twin-villa")
+  DUPLEX      @map("duplex")
+  APARTMENT   @map("apartment")
+  LAND        @map("land")
+  COMMERCIAL  @map("commercial")
+}
+
+enum PropertyStatus {
+  FOR_SALE @map("for-sale")
+  FOR_RENT @map("for-rent")
+  SOLD     @map("sold")
+  RENTED   @map("rented")
+}
+
+enum DeveloperStatus {
+  OFF_PLAN  @map("off-plan")
+  ON_PLAN   @map("on-plan")
+  SECONDARY @map("secondary")
+  RENTAL    @map("rental")
+}
+
+enum Currency {
+  EGP
+  AED
+  USD
+  EUR
+}
+
+enum PropertyApprovalStatus {
+  PENDING  @map("pending")
+  APPROVED @map("approved")
+  REJECTED @map("rejected")
+}
+
+enum VideoAssociationType {
+  COMPOUND @map("compound")
+  LAUNCH   @map("launch")
+  PROPERTY @map("property")
+}
+
+enum PlaylistType {
+  AUTO   @map("auto")
+  MANUAL @map("manual")
+}
+
+enum ConversationStatus {
+  ACTIVE    @map("active")
+  COMPLETED @map("completed")
+  ABANDONED @map("abandoned")
+}
+
+enum NewsletterSource {
+  FOOTER       @map("footer")
+  REGISTRATION @map("registration")
+}
+
+enum JobStatus {
+  OPEN    @map("open")
+  CLOSED  @map("closed")
+  EXPIRED @map("expired")
+}
+
+enum JobType {
+  FULL_TIME   @map("full-time")
+  PART_TIME   @map("part-time")
+  CONTRACT    @map("contract")
+  INTERNSHIP  @map("internship")
+}
+
+enum LaunchStatus {
+  AVAILABLE   @map("Available")
+  COMING_SOON @map("Coming Soon")
+  PRE_LAUNCH  @map("Pre-Launch")
+  SOLD_OUT    @map("Sold Out")
+}
+
+enum LaunchPropertyType {
+  VILLA      @map("Villa")
+  APARTMENT  @map("Apartment")
+  TOWNHOUSE  @map("Townhouse")
+  PENTHOUSE  @map("Penthouse")
+  DUPLEX     @map("Duplex")
+  STUDIO     @map("Studio")
+  COMMERCIAL @map("Commercial")
+  LAND       @map("Land")
+}
+
+model User {
+  id                    String   @id @default(cuid())
+  name                  String
+  email                 String   @unique
+  phone                 String
+  password              String
+  role                  UserRole @default(USER)
+  hierarchy             Int      @default(5)
+  createdById           String?
+  /// Serialized permission flags granted to the user
+  permissions           Json?
+  isActive              Boolean  @default(true)
+  profileImage          String?
+  preferences           Json?
+  lastLogin             DateTime?
+  isEmailVerified       Boolean  @default(false)
+  bio                   String?
+  location              String?
+  subscribeToNewsletter Boolean  @default(false)
+  /// Counters for user behaviour (views, inquiries, etc.)
+  activityStats         Json?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  createdBy          User?                   @relation("UserCreator", fields: [createdById], references: [id])
+  createdUsers       User[]                  @relation("UserCreator")
+  propertyViews      PropertyView[]
+  favoriteProperties UserFavoriteProperty[]
+  newsletters        NewsletterSubscription[]
+  conversations      Conversation[]
+  searches           Search[]                @relation("SearchUser")
+  compoundsCreated   Compound[]              @relation("CompoundCreatedBy")
+  compoundsUpdated   Compound[]              @relation("CompoundUpdatedBy")
+  blogsCreated       Blog[]                  @relation("BlogCreatedBy")
+  blogsUpdated       Blog[]                  @relation("BlogUpdatedBy")
+  propertiesCreated  Property[]              @relation("PropertyCreatedBy")
+  propertiesSubmitted Property[]             @relation("PropertySubmittedBy")
+  propertiesApproved Property[]              @relation("PropertyApprovedBy")
+  inquiries          Inquiry[]               @relation("InquiryUser")
+  assignedInquiries  Inquiry[]               @relation("InquiryAssigned")
+  leadsAssigned      Lead[]                  @relation("LeadAssigned")
+  jobPostings        JobPosting[]            @relation("JobPostingAuthor")
+  launchesCreated    Launch[]                @relation("LaunchCreatedBy")
+  launchesUpdated    Launch[]                @relation("LaunchUpdatedBy")
+  videosCreated      Video[]                 @relation("VideoCreatedBy")
+  videosUpdated      Video[]                 @relation("VideoUpdatedBy")
+  playlistsCreated   VideoPlaylist[]         @relation("PlaylistCreatedBy")
+  playlistsUpdated   VideoPlaylist[]         @relation("PlaylistUpdatedBy")
+
+  @@index([role, isActive])
+}
+
+model Developer {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  slug        String   @unique
+  logo        String?
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  properties Property[]
+  compounds  Compound[]
+}
+
+model Governorate {
+  id                      String   @id @default(cuid())
+  name                    String   @unique
+  slug                    String   @unique
+  annualAppreciationRate  Float    @default(0)
+  description             String?
+  createdAt               DateTime @default(now())
+  updatedAt               DateTime @updatedAt
+
+  cities     City[]
+  properties Property[]
+  compounds  Compound[]
+}
+
+model City {
+  id                     String   @id @default(cuid())
+  name                   String   @unique
+  slug                   String   @unique
+  governorateId          String?
+  annualAppreciationRate Float    @default(0)
+  description            String?
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @updatedAt
+
+  governorate Governorate? @relation(fields: [governorateId], references: [id])
+  areas       Area[]
+  properties  Property[]
+  compounds   Compound[]
+}
+
+model Area {
+  id                     String   @id @default(cuid())
+  name                   String
+  slug                   String?
+  cityId                 String
+  annualAppreciationRate Float    @default(0)
+  description            String?
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @updatedAt
+
+  city       City     @relation(fields: [cityId], references: [id])
+  properties Property[]
+  compounds  Compound[]
+
+  @@unique([cityId, name])
+}
+
+model Compound {
+  id            String   @id @default(cuid())
+  name          String
+  slug          String   @unique
+  description   String?
+  developerId   String?
+  governorateId String?
+  cityId        String?
+  areaId        String?
+  isFeatured    Boolean  @default(false)
+  status        String   @default("planning")
+  launchDate    DateTime?
+  handoverDate  DateTime?
+  heroImage     Json?
+  gallery       Json?
+  amenities     String[] @default([])
+  /// Arbitrary structured content used by the CMS
+  metadata      Json?
+  /// SEO metadata (title, description, keywords)
+  seo           Json?
+  /// Geospatial information and markers
+  location      Json?
+  createdById   String?
+  updatedById   String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  developer   Developer?   @relation(fields: [developerId], references: [id])
+  governorate Governorate? @relation(fields: [governorateId], references: [id])
+  city        City?        @relation(fields: [cityId], references: [id])
+  area        Area?        @relation(fields: [areaId], references: [id])
+  createdBy   User?        @relation("CompoundCreatedBy", fields: [createdById], references: [id])
+  updatedBy   User?        @relation("CompoundUpdatedBy", fields: [updatedById], references: [id])
+  properties  Property[]
+}
+
+model Blog {
+  id                   String   @id @default(cuid())
+  title                String
+  slug                 String   @unique
+  excerpt              String
+  content              String
+  author               String   @default("Basira Team")
+  category             String   @default("General")
+  tags                 String[] @default([])
+  featuredImage        String?
+  images               String[] @default([])
+  published            Boolean  @default(false)
+  featured             Boolean  @default(false)
+  views                Int      @default(0)
+  likes                Int      @default(0)
+  relatedPropertyIds   String[] @default([])
+  relatedDeveloperIds  String[] @default([])
+  metaTitle            String?
+  metaDescription      String?
+  publishedAt          DateTime?
+  createdById          String?
+  updatedById          String?
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  createdBy User? @relation("BlogCreatedBy", fields: [createdById], references: [id])
+  updatedBy User? @relation("BlogUpdatedBy", fields: [updatedById], references: [id])
+}
+
+model Property {
+  id                       String                  @id @default(cuid())
+  title                    String
+  description              String
+  type                     PropertyType
+  status                   PropertyStatus          @default(FOR_SALE)
+  developerStatus          DeveloperStatus?
+  developerId              String?
+  compoundId               String?
+  isCompound               Boolean                 @default(false)
+  price                    Decimal?                @db.Decimal(18, 2)
+  currency                 Currency                @default(EGP)
+  /// Store structured location info (address, coordinates, map data)
+  location                 Json?
+  governorateId            String?
+  cityId                   String?
+  areaId                   String?
+  useNewLocationStructure  Boolean                 @default(false)
+  /// Dimensions, bedroom counts, furnishing, etc.
+  specifications           Json?
+  features                 String[]                @default([])
+  /// Ordered gallery objects stored as JSON
+  images                   Json?
+  /// Optional video metadata (url, thumbnail, provider)
+  video                    Json?
+  virtualTour              Json?
+  floorPlan                Json?
+  masterPlan               Json?
+  amenities                String[]                @default([])
+  nearbyFacilities         Json?
+  investment               Json?
+  documents                Json?
+  isFeatured               Boolean                 @default(false)
+  isActive                 Boolean                 @default(true)
+  isArchived               Boolean                 @default(false)
+  archivedAt               DateTime?
+  soldDate                 DateTime?
+  rentedDate               DateTime?
+  views                    Int                     @default(0)
+  createdById              String
+  approvalStatus           PropertyApprovalStatus  @default(APPROVED)
+  submittedById            String?
+  approvedById             String?
+  approvalDate             DateTime?
+  rejectionReason          String?
+  createdAt                DateTime                @default(now())
+  updatedAt                DateTime                @updatedAt
+
+  developer   Developer?   @relation(fields: [developerId], references: [id])
+  compound    Compound?    @relation(fields: [compoundId], references: [id])
+  governorate Governorate? @relation(fields: [governorateId], references: [id])
+  city        City?        @relation(fields: [cityId], references: [id])
+  area        Area?        @relation(fields: [areaId], references: [id])
+  createdBy   User         @relation("PropertyCreatedBy", fields: [createdById], references: [id])
+  submittedBy User?        @relation("PropertySubmittedBy", fields: [submittedById], references: [id])
+  approvedBy  User?        @relation("PropertyApprovedBy", fields: [approvedById], references: [id])
+  inquiries   Inquiry[]
+  propertyViews PropertyView[]
+  favorites   UserFavoriteProperty[]
+
+  @@index([type, status])
+  @@index([isActive, isFeatured, createdAt])
+  @@index([governorateId, cityId, areaId])
+  @@index([approvalStatus, createdAt])
+}
+
+model PropertyView {
+  id           String   @id @default(cuid())
+  userId       String
+  propertyId   String
+  viewCount    Int      @default(1)
+  lastViewedAt DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id])
+  property Property @relation(fields: [propertyId], references: [id])
+
+  @@unique([userId, propertyId])
+}
+
+model UserFavoriteProperty {
+  id         String   @id @default(cuid())
+  userId     String
+  propertyId String
+  createdAt  DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id])
+  property Property @relation(fields: [propertyId], references: [id])
+
+  @@unique([userId, propertyId])
+}
+
+model Inquiry {
+  id                     String   @id @default(cuid())
+  propertyId             String
+  userId                 String?
+  contactInfo            Json
+  message                String
+  inquiryType            String   @default("general")
+  preferredContactMethod String   @default("phone")
+  preferredTime          String   @default("anytime")
+  budget                 Json?
+  timeline               String   @default("flexible")
+  status                 String   @default("new")
+  priority               String   @default("medium")
+  assignedToId           String?
+  notes                  Json?
+  followUpDate           DateTime?
+  isRead                 Boolean  @default(false)
+  isArchived             Boolean  @default(false)
+  archivedAt             DateTime?
+  source                 String   @default("website")
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @updatedAt
+
+  property   Property @relation(fields: [propertyId], references: [id])
+  user       User?    @relation("InquiryUser", fields: [userId], references: [id])
+  assignedTo User?    @relation("InquiryAssigned", fields: [assignedToId], references: [id])
+
+  @@index([propertyId, status])
+  @@index([status, isArchived])
+}
+
+model Lead {
+  id                 String        @id @default(cuid())
+  name               String
+  email              String
+  phone              String
+  requiredService    String
+  propertyType       PropertyType
+  purpose            String
+  budget             Json?
+  preferredLocation  String[]      @default([])
+  location           String?
+  timeline           String        @default("flexible")
+  status             String        @default("new")
+  priority           String        @default("medium")
+  assignedToId       String?
+  source             String        @default("landing-page")
+  /// Chronological notes stored as array of objects
+  notes              Json?
+  followUpDate       DateTime?
+  isRead             Boolean       @default(false)
+  lastContactDate    DateTime?
+  isArchived         Boolean       @default(false)
+  archivedAt         DateTime?
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+
+  assignedTo    User?          @relation("LeadAssigned", fields: [assignedToId], references: [id])
+  conversations Conversation[]
+
+  @@index([status, priority])
+  @@index([createdAt])
+}
+
+model NewsletterSubscription {
+  id             String            @id @default(cuid())
+  email          String            @unique
+  subscribedAt   DateTime          @default(now())
+  source         NewsletterSource
+  userId         String?
+  isActive       Boolean           @default(true)
+  unsubscribedAt DateTime?
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+
+  user User? @relation(fields: [userId], references: [id])
+
+  @@index([isActive])
+}
+
+model JobPosting {
+  id           String   @id @default(cuid())
+  title        String
+  description  String
+  requirements String[] @default([])
+  location     String?
+  jobType      JobType  @default(FULL_TIME)
+  department   String?
+  status       JobStatus @default(OPEN)
+  postedById   String
+  expiresAt    DateTime?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  postedBy     User            @relation("JobPostingAuthor", fields: [postedById], references: [id])
+  applications JobApplication[]
+
+  @@index([status, jobType])
+  @@index([createdAt])
+}
+
+model JobApplication {
+  id           String   @id @default(cuid())
+  name         String
+  email        String
+  phone        String
+  coverLetter  String?
+  cvFile       Json
+  jobPostingId String
+  status       String   @default("pending")
+  notes        String?
+  appliedAt    DateTime @default(now())
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  jobPosting JobPosting @relation(fields: [jobPostingId], references: [id])
+
+  @@index([jobPostingId, appliedAt])
+}
+
+model Launch {
+  id               String            @id @default(cuid())
+  title            String
+  developer        String
+  description      String
+  content          String
+  image            String
+  images           String[]          @default([])
+  location         String
+  propertyType     LaunchPropertyType
+  status           LaunchStatus      @default(AVAILABLE)
+  startingPrice    Decimal           @db.Decimal(18, 2)
+  currency         Currency          @default(EGP)
+  launchDate       DateTime
+  completionDate   DateTime?
+  area             Float
+  areaUnit         String            @default("sqm")
+  bedrooms         Int?
+  bathrooms        Int?
+  features         String[]          @default([])
+  amenities        String[]          @default([])
+  isFeatured       Boolean           @default(false)
+  isActive         Boolean           @default(true)
+  contactInfo      Json?
+  coordinates      Json?
+  nearbyFacilities Json?
+  /// Serialized array of available payment plans
+  paymentPlans     Json?
+  createdById      String
+  updatedById      String?
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+
+  createdBy User  @relation("LaunchCreatedBy", fields: [createdById], references: [id])
+  updatedBy User? @relation("LaunchUpdatedBy", fields: [updatedById], references: [id])
+
+  @@index([status, isActive])
+  @@index([launchDate])
+}
+
+model Video {
+  id             String               @id @default(cuid())
+  title          String
+  description    String?
+  videoUrl       String
+  thumbnailUrl   String?
+  duration       Int                  @default(0)
+  fileSize       Int                  @default(0)
+  format         String               @default("mp4")
+  publicId       String?
+  associatedType VideoAssociationType
+  associatedId   String
+  order          Int                  @default(0)
+  isFeatured     Boolean              @default(false)
+  isActive       Boolean              @default(true)
+  createdById    String
+  updatedById    String?
+  views          Int                  @default(0)
+  createdAt      DateTime             @default(now())
+  updatedAt      DateTime             @updatedAt
+
+  createdBy User @relation("VideoCreatedBy", fields: [createdById], references: [id])
+  updatedBy User? @relation("VideoUpdatedBy", fields: [updatedById], references: [id])
+  playlists VideoPlaylistVideo[]
+
+  @@index([associatedType, associatedId])
+  @@index([isActive, isFeatured])
+  @@index([createdAt])
+}
+
+model VideoPlaylist {
+  id             String             @id @default(cuid())
+  title          String
+  description    String?
+  type           PlaylistType       @default(MANUAL)
+  associatedType VideoAssociationType?
+  associatedId   String?
+  thumbnailUrl   String?
+  isActive       Boolean            @default(true)
+  createdById    String?
+  updatedById    String?
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+
+  createdBy User? @relation("PlaylistCreatedBy", fields: [createdById], references: [id])
+  updatedBy User? @relation("PlaylistUpdatedBy", fields: [updatedById], references: [id])
+  videos    VideoPlaylistVideo[]
+
+  @@index([isActive])
+  @@index([type])
+}
+
+model VideoPlaylistVideo {
+  id         String   @id @default(cuid())
+  playlistId String
+  videoId    String
+  order      Int      @default(0)
+  createdAt  DateTime @default(now())
+
+  playlist VideoPlaylist @relation(fields: [playlistId], references: [id])
+  video    Video        @relation(fields: [videoId], references: [id])
+
+  @@unique([playlistId, videoId])
+  @@index([videoId])
+}
+
+model Search {
+  id           String   @id @default(cuid())
+  query        String
+  userId       String?
+  ipAddress    String
+  userAgent    String?
+  resultsCount Int      @default(0)
+  filters      Json?
+  createdAt    DateTime @default(now())
+
+  user User? @relation("SearchUser", fields: [userId], references: [id])
+
+  @@index([createdAt])
+}
+
+model Conversation {
+  id                    String             @id @default(cuid())
+  sessionId             String             @unique
+  userId                String?
+  userAgent             String?
+  ipAddress             String?
+  referrer              String?
+  /// Chronological transcript stored as JSON array
+  messages              Json?
+  /// Captured filters/budget gleaned from chat
+  userPreferences       Json?
+  /// Cached recommendations to replay to the user
+  recommendedProperties Json?
+  recommendedLaunches   Json?
+  leadCaptured          Boolean            @default(false)
+  leadId                String?
+  status                ConversationStatus @default(ACTIVE)
+  tags                  String[]           @default([])
+  isActive              Boolean            @default(true)
+  firstMessageAt        DateTime?
+  lastMessageAt         DateTime?
+  totalMessages         Int                @default(0)
+  conversationDuration  Int?
+  createdAt             DateTime           @default(now())
+  updatedAt             DateTime           @updatedAt
+
+  user User? @relation(fields: [userId], references: [id])
+  lead Lead? @relation(fields: [leadId], references: [id])
+
+  @@index([userId])
+  @@index([status, isActive])
+  @@index([leadCaptured])
+  @@index([lastMessageAt])
+}
+
+model SiteSettings {
+  id              String   @id @default("site-settings")
+  phoneNumbers    String[] @default([])
+  whatsappNumbers String[] @default([])
+  whatsappMessage String   @default("Hello! I'm interested in your properties. Can you help me?")
+  showPhone       Boolean  @default(false)
+  showWhatsApp    Boolean  @default(false)
+  email           String   @default("")
+  socialMedia     Json?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

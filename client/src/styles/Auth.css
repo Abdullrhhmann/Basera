@@ -1,0 +1,79 @@
+.auth-hero-section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.auth-hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(0, 0, 0, 0.88) 0%, rgba(5, 8, 16, 0.78) 45%, rgba(8, 12, 24, 0.85) 100%);
+  z-index: 0;
+}
+
+.auth-hero-section .auth-hero-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.auth-hero-section .auth-hero-overlay::before,
+.auth-hero-section .auth-hero-overlay::after {
+  content: "";
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(0);
+  opacity: 0.35;
+  mix-blend-mode: screen;
+}
+
+.auth-hero-section .auth-hero-overlay::before {
+  top: 18%;
+  left: 8%;
+  width: min(28vw, 340px);
+  height: min(28vw, 340px);
+  background: radial-gradient(circle at 30% 30%, rgba(248, 219, 140, 0.6), rgba(248, 219, 140, 0));
+  animation: auth-orb-float 16s ease-in-out infinite;
+}
+
+.auth-hero-section .auth-hero-overlay::after {
+  bottom: 15%;
+  right: 12%;
+  width: min(32vw, 400px);
+  height: min(32vw, 400px);
+  background: radial-gradient(circle at 60% 60%, rgba(51, 78, 134, 0.55), rgba(51, 78, 134, 0));
+  animation: auth-orb-float 20s ease-in-out infinite reverse;
+}
+
+@keyframes auth-orb-float {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  50% {
+    transform: translate3d(0, -14px, 0) scale(1.03);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .auth-hero-section {
+    background-attachment: scroll;
+  }
+
+  .auth-hero-section .auth-hero-overlay::before,
+  .auth-hero-section .auth-hero-overlay::after {
+    display: none;
+  }
+}
+

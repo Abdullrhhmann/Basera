@@ -1,0 +1,30 @@
+{
+  "name": "basira-real-estate",
+  "version": "1.0.0",
+  "description": "Professional real estate website with React frontend and Node.js backend",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "seed:locations": "node server/scripts/seedLocations.js",
+    "clear:properties": "node server/scripts/clearAllProperties.js"
+  },
+  "keywords": [
+    "real-estate",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Basira Real Estate",
+  "license": "MIT",
+  "devDependencies": {
+    "@locator/babel-jsx": "^0.5.0-alpha.0",
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "pacman": "^0.15.0"
+  }
+}
