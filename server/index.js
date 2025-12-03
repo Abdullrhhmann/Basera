@@ -60,12 +60,14 @@ app.use(helmet({
 app.use(compression());
 
 // CORS configuration - Secure for production, flexible for development
-const allowedOrigins = [
-  'https://basira-frontend.vercel.app',
-  'http://localhost:3000',
-  'http://localhost:3001',
-  process.env.CLIENT_URL
-].filter(Boolean);
+const allowedOrigins = process.env.CORS_ORIGIN 
+  ? process.env.CORS_ORIGIN.split(',').map(origin => origin.trim())
+  : [
+      'https://basira-frontend.vercel.app',
+      'http://localhost:3000',
+      'http://localhost:3001',
+      process.env.CLIENT_URL
+    ].filter(Boolean);
 
 // Enhanced CORS middleware with strict origin checking in production
 app.use((req, res, next) => {

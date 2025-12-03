@@ -22,7 +22,7 @@ APP_DIR="/var/www/basira-backend"
 DB_NAME="basera_prod"
 DB_USER="basera_user"
 DOMAIN="api.your-domain.com"  # Replace with your actual domain
-NODE_VERSION="18"
+NODE_VERSION="20"  # Prisma 7+ requires Node.js 20+
 
 echo -e "${BLUE}============================================${NC}"
 echo -e "${BLUE}   BASIRA REAL ESTATE - VPS DEPLOYMENT${NC}"
