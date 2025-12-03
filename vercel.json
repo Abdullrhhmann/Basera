@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd client && npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "client/build",
+  "installCommand": "echo 'Skipping root install'",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./client"
+}
+
